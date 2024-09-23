@@ -38,8 +38,6 @@ export default function Page() {
   const language = lang === "tr" || lang === "en" ? lang : "en";
   const pageContent = content[language][slug];
 
-  console.log("pageContent11111111111111", pageContent);
-
   return (
     <div>
       <Hero />

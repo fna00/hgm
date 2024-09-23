@@ -1,5 +1,13 @@
-import React from "react";
+import Menu from "../Menu";
 
-export default function SideNav() {
-  return <div>SideNav</div>;
+interface SideNavProps {
+  language: string;
+}
+
+export default function SideNav({ language }: SideNavProps) {
+  return (
+    <div>
+      <Menu lang={language} className={"relative"} />
+    </div>
+  );
 }

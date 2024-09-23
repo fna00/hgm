@@ -10,15 +10,19 @@ const content = {
 
 type Language = keyof typeof content;
 
-const Menu = ({ lang }: { lang: Language }) => {
-  const menuItems = content.en.menu;
+interface MenuProps {
+  lang: Language;
+  className?: string;
+}
 
+const Menu = ({ lang, className }: MenuProps) => {
+  const menuItems = content.en.menu;
   return (
-    <div className="flex justify-between items-center gap-10">
+    <>
       {menuItems.map((item, index) => (
         <Link
           key={index}
-          className="border-b-2 hover:scale-110 transition-all duration-300"
+          className={className}
           href={`/${lang}${
             item.toLowerCase() === "home" ? "" : `/${item.toLowerCase()}`
           }`}
@@ -26,7 +30,7 @@ const Menu = ({ lang }: { lang: Language }) => {
           {content[lang].menu[index]}
         </Link>
       ))}
-    </div>
+    </>
   );
 };
 
