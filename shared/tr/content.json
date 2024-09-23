@@ -1,0 +1,23 @@
+{
+  "menu": ["Ana Sayfa", "Hakkımızda", "Career", "Projeler", "İletişim"],
+  "home": {
+    "title": "Web sitemize hoş geldiniz",
+    "content": "Bu, ana sayfa için Türkçe içeriktir."
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "content": "Bu, hakkımızda sayfası için Türkçe içeriktir."
+  },
+  "career": {
+    "title": "Kariyer",
+    "content": "Bu, kariyer sayfası için Türkçe içeriktir."
+  },
+  "project": {
+    "title": "Projelerimiz",
+    "content": "Bu, projeler sayfası için Türkçe içeriktir."
+  },
+  "contact": {
+    "title": "Bize Ulaşın",
+    "content": "Bu, iletişim sayfası için Türkçe içeriktir."
+  }
+}

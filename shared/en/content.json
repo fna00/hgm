@@ -1,0 +1,23 @@
+{
+  "menu": ["Home", "About", "Project", "Career", "Contact"],
+  "home": {
+    "title": "Welcome to our website",
+    "content": "This is the English content for the home page."
+  },
+  "about": {
+    "title": "About Us",
+    "content": "This is the English content for the about page."
+  },
+  "career": {
+    "title": "Career",
+    "content": "This is the English content for the career page."
+  },
+  "project": {
+    "title": "Our Projects",
+    "content": "This is the English content for the projects page."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "content": "This is the English content for the contact page."
+  }
+}

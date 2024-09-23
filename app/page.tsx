@@ -1,11 +1,5 @@
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
+import { redirect } from "next/navigation";
 
 export default function Home() {
-  return (
-    <div className="text-black">
-      <Hero />
-      <Header />
-    </div>
-  );
+  redirect("/en/");
 }
