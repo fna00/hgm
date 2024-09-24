@@ -9,8 +9,9 @@ interface MenuProps {
   className?: string;
 }
 
-function Menu({ lang, className }: MenuProps) {
+export default function Menu({ lang, className }: MenuProps) {
   const { data, isLoading, isError } = useFetchPageContent(lang);
+  const navigateKeys = ["home", "about", "career", "project", "contact"];
 
   const menuItems = data?.menu || [];
 
@@ -19,19 +20,16 @@ function Menu({ lang, className }: MenuProps) {
 
   return (
     <>
-      {menuItems.map((item: string, index: number) => (
-        <Link
-          key={index}
-          className={className}
-          href={`/${lang}${
-            item.toLowerCase() === "home" ? "" : `/${item.toLowerCase()}`
-          }`}
-        >
-          {item}
-        </Link>
-      ))}
+      {menuItems.map((item: string, index: number) => {
+        const key = navigateKeys[index];
+        if (!key) return null;
+
+        return (
+          <Link key={index} className={className} href={`/${lang}${`/${key}`}`}>
+            {item}
+          </Link>
+        );
+      })}
     </>
   );
 }
-
-export default Menu;

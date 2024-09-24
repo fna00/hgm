@@ -28,11 +28,11 @@ export default function Header() {
           <a className="flex items-center gap-2" href="/">
             <BrandIcon className={"h-20 w-40"} />
           </a>
-          <div className="hidden lg:flex justify-between items-center gap-10">
+          <div className="hidden lg:flex justify-between items-center gap-10 flex-auto">
             <Menu
               lang={language}
               className={
-                "border-b-2 hover:scale-110 transition-all duration-300"
+                "flex border-b-2 hover:scale-110 transition-all duration-300"
               }
             />
           </div>

@@ -1,5 +1,6 @@
 {
-  "menu": ["Ana Sayfa", "Hakkımızda", "Career", "Projeler", "İletişim"],
+  "menu": ["Ana Sayfa", "Hakkımızda", "Kariyer", "Projeler", "İletişim"],
+
   "home": {
     "title": "Web sitemize hoş geldiniz",
     "content": "Bu, ana sayfa için Türkçe içeriktir."
@@ -13,8 +14,50 @@
     "content": "Bu, kariyer sayfası için Türkçe içeriktir."
   },
   "project": {
-    "title": "Projelerimiz",
-    "content": "Bu, projeler sayfası için Türkçe içeriktir."
+    "title": "Kullandığımız Teknolojiler",
+    "content": "Kullandığımız teknolojileri aşağıda görebilirsiniz.",
+    "technologies": [
+      {
+        "name": "Next.js",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+        "alt": "Next.js"
+      },
+      {
+        "name": "React",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "alt": "React"
+      },
+      {
+        "name": "Docker",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+        "alt": "Docker"
+      },
+      {
+        "name": "VS Code",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+        "alt": "VS Code"
+      },
+      {
+        "name": "Node.js",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        "alt": "Node.js"
+      },
+      {
+        "name": "TypeScript",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        "alt": "TypeScript"
+      },
+      {
+        "name": "GraphQL",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+        "alt": "GraphQL"
+      },
+      {
+        "name": "MongoDB",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+        "alt": "MongoDB"
+      }
+    ]
   },
   "contact": {
     "title": "Bize Ulaşın",

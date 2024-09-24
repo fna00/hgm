@@ -1,5 +1,6 @@
 {
-  "menu": ["Home", "About", "Project", "Career", "Contact"],
+  "menu": ["Home", "About", "Career", "Project", "Contact"],
+
   "home": {
     "title": "Welcome to our website",
     "content": "This is the English content for the home page."
@@ -8,13 +9,56 @@
     "title": "About Us",
     "content": "This is the English content for the about page."
   },
+
+  "project": {
+    "title": "Our Projects",
+    "content": "This is the English content for the projects page.",
+    "technologies": [
+      {
+        "name": "Next.js",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+        "alt": "Next.js"
+      },
+      {
+        "name": "React",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "alt": "React"
+      },
+      {
+        "name": "Docker",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+        "alt": "Docker"
+      },
+      {
+        "name": "VS Code",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+        "alt": "VS Code"
+      },
+      {
+        "name": "Node.js",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        "alt": "Node.js"
+      },
+      {
+        "name": "TypeScript",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        "alt": "TypeScript"
+      },
+      {
+        "name": "GraphQL",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+        "alt": "GraphQL"
+      },
+      {
+        "name": "MongoDB",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+        "alt": "MongoDB"
+      }
+    ]
+  },
   "career": {
     "title": "Career",
     "content": "This is the English content for the career page."
-  },
-  "project": {
-    "title": "Our Projects",
-    "content": "This is the English content for the projects page."
   },
   "contact": {
     "title": "Contact Us",

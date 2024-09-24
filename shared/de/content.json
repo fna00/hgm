@@ -1,5 +1,5 @@
 {
-  "menu": ["Startseite", "Über uns", "Projekte", "Karriere", "Kontakt"],
+  "menu": ["Startseite", "Über uns", "Karriere", "Projekte", "Kontakt"],
   "home": {
     "title": "Willkommen auf unserer Website",
     "content": "Dies ist der deutsche Inhalt für die Startseite."
@@ -8,13 +8,56 @@
     "title": "Über uns",
     "content": "Dies ist der deutsche Inhalt für die Seite Über uns."
   },
+
+  "project": {
+    "title": "Unsere Projekte",
+    "content": "Dies ist der deutsche Inhalt für die Projektseite.",
+    "technologies": [
+      {
+        "name": "Next.js",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+        "alt": "Next.js"
+      },
+      {
+        "name": "React",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "alt": "React"
+      },
+      {
+        "name": "Docker",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+        "alt": "Docker"
+      },
+      {
+        "name": "VS Code",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+        "alt": "VS Code"
+      },
+      {
+        "name": "Node.js",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        "alt": "Node.js"
+      },
+      {
+        "name": "TypeScript",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        "alt": "TypeScript"
+      },
+      {
+        "name": "GraphQL",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+        "alt": "GraphQL"
+      },
+      {
+        "name": "MongoDB",
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+        "alt": "MongoDB"
+      }
+    ]
+  },
   "career": {
     "title": "Karriere",
     "content": "Dies ist der deutsche Inhalt für die Karriereseite."
-  },
-  "project": {
-    "title": "Unsere Projekte",
-    "content": "Dies ist der deutsche Inhalt für die Projektseite."
   },
   "contact": {
     "title": "Kontakt",
