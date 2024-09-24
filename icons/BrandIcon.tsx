@@ -1,12 +1,10 @@
 import React from "react";
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export default function BrandIcon() {
+export default function BrandIcon({ className }: { className: string }) {
   return (
     <div>
       <svg
-        width="200px"
-        height="100px "
+        className={className}
         viewBox="0 0 579 169"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

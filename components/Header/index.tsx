@@ -13,39 +13,43 @@ export default function Header() {
   const pathSegments = pathname.split("/").filter(Boolean);
   const lang = pathSegments[0] || "en";
 
-  const [clicked, setClicked] = useState(false);
+  const [clicked, setClicked] = useState<boolean>(false);
   console.log("clicked", clicked);
 
   const language = lang === "tr" || lang === "en" ? lang : "en";
 
   return (
-    <div className="relative px-5 bg-transparent text-white font-medium text-lg font-serif">
-      {/* lg ve üstü boyutlarda gösterilecek içerik */}
-      <div className="hidden lg:grid lg:grid-cols-3">
-        <a className="flex items-center gap-2" href="/">
-          <BrandIcon />
-        </a>
-        <div className="hidden lg:flex justify-between items-center gap-10">
-          <Menu
-            lang={language}
-            className={"border-b-2 hover:scale-110 transition-all duration-300"}
-          />
-        </div>
+    <div>
+      <div className="relative px-5 bg-transparent text-white font-medium text-lg font-serif">
+        {/* lg ve üstü boyutlarda gösterilecek içerik */}
+        <div className="hidden lg:grid lg:grid-cols-3">
+          <a className="flex items-center gap-2" href="/">
+            <BrandIcon className={"h-20 w-40"} />
+          </a>
+          <div className="hidden lg:flex justify-between items-center gap-10">
+            <Menu
+              lang={language}
+              className={
+                "border-b-2 hover:scale-110 transition-all duration-300"
+              }
+            />
+          </div>
 
-        <LanguagePicker currentLang={lang} />
+          <LanguagePicker currentLang={lang} />
+        </div>
       </div>
       {/* lg ve altı boyutlarda gösterilecek içerik */}
-      <div className="lg:hidden flex justify-between items-center">
+      <div className="relative container mx-auto px-4 lg:hidden flex justify-between items-center">
         <>
           {clicked ? (
-            <SideNav language={lang} />
+            <SideNav language={lang} onClose={() => setClicked(false)} />
           ) : (
             <>
               <button onClick={() => setClicked(!clicked)} className="h-9 w-9">
                 <HamburgerIcon />
               </button>
               <a className="flex items-center gap-2" href="/">
-                <BrandIcon />
+                <BrandIcon className={"h-20 w-40"} />
               </a>
               <LanguagePicker currentLang={lang} />
             </>
