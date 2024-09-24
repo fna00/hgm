@@ -4,6 +4,7 @@ import DescriptionBox from "@/components/DescriptionBox";
 import TechnologiesTable from "@/components/TechnologiesTable";
 
 interface ProjectPageProps {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   data: any;
 }
 

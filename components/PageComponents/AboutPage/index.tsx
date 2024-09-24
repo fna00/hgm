@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../Header";
 
 interface AboutPageProps {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   data: any;
 }
 

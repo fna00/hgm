@@ -4,6 +4,7 @@ import InfoCard from "@/components/InfoCard";
 import React from "react";
 
 interface HomePageProps {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   data: any;
 }
 
