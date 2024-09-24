@@ -8,14 +8,10 @@ export async function GET(
 ) {
   const { lang } = params;
 
-  console.log("byurası get");
-
   try {
     const filePath = path.join(process.cwd(), "shared", lang, "content.json");
     const fileContents = await fs.readFile(filePath, "utf-8");
     const content = JSON.parse(fileContents);
-
-    console.log("filePaths", filePath);
 
     return NextResponse.json(content);
   } catch (error) {
