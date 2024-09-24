@@ -1,10 +1,26 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const LanguagePicker = ({ currentLang }: { currentLang: string }) => {
+  const [languages, setLanguages] = useState<string[]>([
+    "en",
+    "tr",
+    "ar",
+    "de",
+  ]); // Default languages as fallback
   const router = useRouter();
+
+  useEffect(() => {
+    const fetchLanguages = async () => {
+      const res = await fetch("/api/languages"); // Yeni API rotasını kullan
+      const data = await res.json();
+      setLanguages(data.languages);
+    };
+
+    fetchLanguages();
+  }, []);
 
   const handleLanguageChange = (
     event: React.ChangeEvent<HTMLSelectElement>
@@ -20,12 +36,11 @@ const LanguagePicker = ({ currentLang }: { currentLang: string }) => {
         value={currentLang}
         className="p-2 bg-transparent text-white"
       >
-        <option value="en" className="text-black">
-          EN
-        </option>
-        <option value="tr" className="text-black">
-          TR
-        </option>
+        {languages.map((lang) => (
+          <option key={lang} value={lang} className="text-black">
+            {lang.toUpperCase()}
+          </option>
+        ))}
       </select>
     </div>
   );

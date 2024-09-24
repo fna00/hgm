@@ -1,0 +1,23 @@
+{
+  "menu": ["Startseite", "Über uns", "Projekte", "Karriere", "Kontakt"],
+  "home": {
+    "title": "Willkommen auf unserer Website",
+    "content": "Dies ist der deutsche Inhalt für die Startseite."
+  },
+  "about": {
+    "title": "Über uns",
+    "content": "Dies ist der deutsche Inhalt für die Seite Über uns."
+  },
+  "career": {
+    "title": "Karriere",
+    "content": "Dies ist der deutsche Inhalt für die Karriereseite."
+  },
+  "project": {
+    "title": "Unsere Projekte",
+    "content": "Dies ist der deutsche Inhalt für die Projektseite."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "content": "Dies ist der deutsche Inhalt für die Kontaktseite."
+  }
+}

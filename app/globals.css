@@ -21,7 +21,28 @@ body {
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-200px);
+    }
+  }
+
+  .animation-float {
+    animation: float 10s ease-in-out infinite alternate;
+  }
+
+  .animation-delay-1 {
+    animation-delay: 1s;
+  }
+
+  .animation-delay-2 {
+    animation-delay: 2s;
+  }
+
+  .animation-delay-3 {
+    animation-delay: 3s;
   }
 }

@@ -14,9 +14,11 @@ export default function Header() {
   const lang = pathSegments[0] || "en";
 
   const [clicked, setClicked] = useState<boolean>(false);
-  console.log("clicked", clicked);
 
-  const language = lang === "tr" || lang === "en" ? lang : "en";
+  const language =
+    lang === "tr" || lang === "en" || lang == "ar" || lang == "de"
+      ? lang
+      : "en";
 
   return (
     <div>
