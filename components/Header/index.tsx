@@ -21,7 +21,7 @@ export default function Header() {
       : "en";
 
   return (
-    <div>
+    <div className="fixed top-0 left-0 w-full z-50">
       <div className="relative px-5 bg-transparent text-white font-medium text-lg font-serif">
         {/* lg ve üstü boyutlarda gösterilecek içerik */}
         <div className="hidden lg:grid lg:grid-cols-3">
