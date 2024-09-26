@@ -39,7 +39,9 @@ export default function Hero({ isHomePage }: HeroProps) {
       </div>
       <div className="relative text-center text-white">
         <h1 className="text-6xl font-bold">HGM Software</h1>
-        <p className="mt-4 text-xl">Dijital Çözümler, Güçlü Yarınlar</p>
+        <p className="mt-4 text-xl">
+          Dijital Çözümler, Güçlü YarınlarRRRRRRRRR
+        </p>
         <button className="mt-8 px-6 py-3 bg-white text-indigo-500 font-semibold rounded-lg shadow-md hover:bg-indigo-600 hover:text-white transition">
           Bize Ulaşın
         </button>

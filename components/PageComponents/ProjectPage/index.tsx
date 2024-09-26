@@ -13,9 +13,9 @@ function ProjectPage({ data }: ProjectPageProps) {
   return (
     <>
       <Header />
-      <div className="container mx-auto px-4">
+      <div className="relative container mx-auto px-4 mt-20">
         <DescriptionBox
-          className={"mt-10"}
+          className={""}
           title={data?.title}
           content={data?.content}
         />
