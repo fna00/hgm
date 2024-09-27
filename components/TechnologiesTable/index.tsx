@@ -7,9 +7,8 @@ interface TechnologiesTableProps {
 export default function TechnologiesTable({
   technologies,
 }: TechnologiesTableProps) {
-  console.log("technologies", technologies);
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-black">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-white">
       {technologies.map((tech, index) => (
         <div
           key={index}

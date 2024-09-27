@@ -2,7 +2,24 @@
   "menu": ["Startseite", "Über uns", "Karriere", "Projekte", "Kontakt"],
   "home": {
     "title": "Willkommen auf unserer Website",
-    "content": "Dies ist der deutsche Inhalt für die Startseite."
+    "content": "Dies ist der deutsche Inhalt für die Startseite.",
+    "cards": [
+      {
+        "imgSrc": "https://via.placeholder.com/50",
+        "title": "Softwareentwicklung",
+        "content": "Webanwendungen. Mobile Anwendungen. UI/UX-Design"
+      },
+      {
+        "imgSrc": "https://via.placeholder.com/50",
+        "title": "Marketinglösungen",
+        "content": "Videoproduktion. Social Media Management. Kreative Lösungen. Inhaltsverwaltung. Strategie"
+      },
+      {
+        "imgSrc": "https://via.placeholder.com/50",
+        "title": "Mechatroniklösungen",
+        "content": "Industrielle Automatisierung. IoT-Lösungen"
+      }
+    ]
   },
   "about": {
     "title": "Über uns",
@@ -57,10 +74,45 @@
   },
   "career": {
     "title": "Karriere",
-    "content": "Dies ist der deutsche Inhalt für die Karriereseite."
+    "content": "Dies ist der deutsche Inhalt für die Karriereseite.",
+    "positions": [
+      {
+        "title": "Backend-Entwickler",
+        "description": "Wir suchen einen talentierten Backend-Entwickler, der unserem Team beitritt. Sie sind verantwortlich für die Verwaltung des Datenaustauschs zwischen dem Server und den Benutzern.",
+        "requirements": "Erfahrung mit Node.js, Express und MongoDB. Kenntnisse in RESTful APIs."
+      },
+      {
+        "title": "Junior DevOps-Ingenieur",
+        "description": "Treten Sie unserem Team als Junior DevOps-Ingenieur bei. Sie helfen bei der Verwaltung unserer Infrastruktur und sorgen für reibungslose Bereitstellungsprozesse.",
+        "requirements": "Kenntnisse in Docker, Kubernetes und CI/CD-Pipelines."
+      },
+      {
+        "title": "Frontend-Entwickler",
+        "description": "Wir benötigen einen talentierten Frontend-Entwickler, um großartige Benutzererlebnisse zu schaffen. Sie sollten in React versiert sein und ein gutes Auge für Design haben.",
+        "requirements": "Erfahrung mit React, HTML, CSS und JavaScript. Kenntnisse im responsiven Design."
+      }
+    ]
   },
   "contact": {
-    "title": "Kontakt",
-    "content": "Dies ist der deutsche Inhalt für die Kontaktseite."
+    "title": "Treten Sie unserem Team bei",
+    "content": "Bei uns glauben wir daran, ein kollaboratives und innovatives Arbeitsumfeld zu schaffen. Wir sind immer auf der Suche nach talentierten Individuen, die unserem Team beitreten möchten. Wenn Sie leidenschaftlich an Technologie interessiert sind und einen Unterschied machen möchten, würden wir gerne von Ihnen hören.",
+    "form": {
+      "name": "Vollständiger Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "submit": "Absenden"
+    }
+  },
+  "footer": {
+    "companyInfo": "© 2023 Ihr Unternehmen. Alle Rechte vorbehalten.",
+    "socialMedia": {
+      "facebook": "https://facebook.com/yourcompany",
+      "twitter": "https://twitter.com/yourcompany",
+      "linkedin": "https://linkedin.com/company/yourcompany"
+    },
+    "contact": {
+      "email": "kontakt@yourcompany.com",
+      "phone": "+49 123 456 7890"
+    }
   }
 }

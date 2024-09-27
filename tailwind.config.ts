@@ -34,8 +34,10 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        customBlue: "#201E43",
-        customWhite: "#EEEEEE",
+        customBlue: "#001F3F",
+        customHeroAlt: "#3A6D8C",
+        customSectionTop: "#6A9AB0",
+        customSectionAlt: "#EAD8B1",
       },
       backgroundImage: {
         hero: "url('../assets/hero.png')",

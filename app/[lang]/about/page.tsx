@@ -1,20 +1,13 @@
-"use client";
-
 import React from "react";
-import { useParams } from "next/navigation";
 import AboutPage from "@/components/PageComponents/AboutPage";
-import { useFetchPageContent } from "@/hooks/useFectchPageContent";
+
+// Statik parametreleri önceden belirleyin
+export async function generateStaticParams() {
+  return [{ lang: "en" }, { lang: "tr" }, { lang: "de" }, { lang: "ar" }];
+}
 
 function About() {
-  const params = useParams();
-  const lang = params.lang as string;
-
-  const { data, isLoading, isError } = useFetchPageContent(lang);
-
-  if (isLoading) return <p>Loading...</p>;
-  if (isError) return <p>Could not load content</p>;
-
-  return <AboutPage data={data?.about} />;
+  return <AboutPage />;
 }
 
 export default About;

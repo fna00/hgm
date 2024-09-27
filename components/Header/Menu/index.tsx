@@ -2,7 +2,10 @@
 
 import React from "react";
 import Link from "next/link";
-import { useFetchPageContent } from "@/hooks/useFectchPageContent";
+import en from "../../../shared/en/content.json";
+import tr from "../../../shared/tr/content.json";
+import ar from "../../../shared/ar/content.json";
+import de from "../../../shared/de/content.json";
 
 interface MenuProps {
   lang: string;
@@ -10,13 +13,16 @@ interface MenuProps {
 }
 
 export default function Menu({ lang, className }: MenuProps) {
-  const { data, isLoading, isError } = useFetchPageContent(lang);
   const navigateKeys = ["home", "about", "career", "project", "contact"];
 
-  const menuItems = data?.menu || [];
-
-  if (isLoading) return <p>Loading menu...</p>;
-  if (isError) return <p>Could not load content</p>;
+  const menuItems =
+    lang === "en"
+      ? en.menu
+      : lang === "tr"
+      ? tr.menu
+      : lang === "ar"
+      ? ar.menu
+      : de.menu;
 
   return (
     <>

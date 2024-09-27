@@ -2,7 +2,24 @@
   "menu": ["الرئيسية", "من نحن", "الوظائف", "المشاريع", "اتصل بنا"],
   "home": {
     "title": "مرحبًا بكم في موقعنا",
-    "content": "هذا هو المحتوى العربي للصفحة الرئيسية."
+    "content": "هذا هو المحتوى العربي للصفحة الرئيسية.",
+    "cards": [
+      {
+        "imgSrc": "https://via.placeholder.com/50",
+        "title": "تطوير البرمجيات",
+        "content": "تطبيقات الويب. تطبيقات الجوال. تصميم واجهة المستخدم وتجربة المستخدم"
+      },
+      {
+        "imgSrc": "https://via.placeholder.com/50",
+        "title": "حلول التسويق",
+        "content": "إنتاج الفيديو. إدارة وسائل التواصل الاجتماعي. الحلول الإبداعية. إدارة المحتوى. الاستراتيجية"
+      },
+      {
+        "imgSrc": "https://via.placeholder.com/50",
+        "title": "حلول الميكاترونيك",
+        "content": "الأتمتة الصناعية. حلول إنترنت الأشياء"
+      }
+    ]
   },
   "about": {
     "title": "من نحن",
@@ -55,12 +72,46 @@
     ]
   },
   "career": {
-    "title": "الوظائف",
-    "content": "هذا هو المحتوى العربي لصفحة الوظائف."
+    "title": "انضم إلى فريقنا",
+    "content": "في شركتنا، نؤمن بخلق بيئة عمل تعاونية ومبتكرة. نحن دائمًا نبحث عن أفراد موهوبين للانضمام إلى فريقنا. إذا كنت شغوفًا بالتكنولوجيا وترغب في إحداث فرق، فنحن نود أن نسمع منك.",
+    "positions": [
+      {
+        "title": "مطور Backend",
+        "description": "نحن نبحث عن مطور Backend ماهر للانضمام إلى فريقنا. ستكون مسؤولاً عن إدارة تبادل البيانات بين الخادم والمستخدمين.",
+        "requirements": "خبرة في Node.js و Express و MongoDB. معرفة بـ RESTful APIs."
+      },
+      {
+        "title": "مهندس DevOps مبتدئ",
+        "description": "انضم إلى فريقنا كمهندس DevOps مبتدئ. ستساعد في إدارة بنيتنا التحتية وضمان عمليات النشر السلسة.",
+        "requirements": "معرفة بـ Docker و Kubernetes و CI/CD pipelines."
+      },
+      {
+        "title": "مطور Frontend",
+        "description": "نحتاج إلى مطور Frontend موهوب لإنشاء تجارب مستخدم رائعة. يجب أن تكون ماهرًا في React ولديك عين جيدة للتصميم.",
+        "requirements": "خبرة في React و HTML و CSS و JavaScript. معرفة بتصميم الاستجابة."
+      }
+    ]
   },
-
   "contact": {
     "title": "اتصل بنا",
-    "content": "هذا هو المحتوى العربي لصفحة اتصل بنا."
+    "content": "هذا هو المحتوى العربي لصفحة اتصل بنا.",
+    "form": {
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "message": "الرسالة",
+      "submit": "إرسال"
+    }
+  },
+  "footer": {
+    "companyInfo": "© 2023 شركتك. جميع الحقوق محفوظة.",
+    "socialMedia": {
+      "facebook": "https://facebook.com/yourcompany",
+      "twitter": "https://twitter.com/yourcompany",
+      "linkedin": "https://linkedin.com/company/yourcompany"
+    },
+    "contact": {
+      "email": "contact@yourcompany.com",
+      "phone": "+971 123 456 7890"
+    }
   }
 }

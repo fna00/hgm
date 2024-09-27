@@ -15,9 +15,7 @@ export default function RootLayout({
   return (
     <ReactQueryProvider>
       <html lang="en">
-        <body
-          className={`bg-gradient-to-b from-customBlue to-customWhite h-screen antialiased`}
-        >
+        <body className={`min-h-screen bg-customBlue antialiased`}>
           {children}
         </body>
       </html>

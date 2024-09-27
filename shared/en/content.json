@@ -3,7 +3,24 @@
 
   "home": {
     "title": "Welcome to our website",
-    "content": "This is the English content for the home page."
+    "content": "This is the English content for the home page.",
+    "cards": [
+      {
+        "imgSrc": "https://via.placeholder.com/50",
+        "title": "Software Development",
+        "content": "Web Applications. Mobile Applications. UI/UX Design"
+      },
+      {
+        "imgSrc": "https://via.placeholder.com/50",
+        "title": "Marketing Solutions",
+        "content": "Video Production. Social Media Management. Creative Solutions. Content Management. Strategy"
+      },
+      {
+        "imgSrc": "https://via.placeholder.com/50",
+        "title": "Mechatronic Solutions",
+        "content": "Industrial Automation. IoT Solutions"
+      }
+    ]
   },
   "about": {
     "title": "About Us",
@@ -57,11 +74,46 @@
     ]
   },
   "career": {
-    "title": "Career",
-    "content": "This is the English content for the career page."
+    "title": "Join Our Team",
+    "content": "At our company, we believe in fostering a collaborative and innovative work environment. We are always on the lookout for talented individuals to join our team. If you are passionate about technology and eager to make a difference, we would love to hear from you.",
+    "positions": [
+      {
+        "title": "Backend Developer",
+        "description": "We are looking for a skilled Backend Developer to join our team. You will be responsible for managing the interchange of data between the server and the users.",
+        "requirements": "Experience with Node.js, Express, and MongoDB. Knowledge of RESTful APIs."
+      },
+      {
+        "title": "Junior DevOps Engineer",
+        "description": "Join our team as a Junior DevOps Engineer. You will assist in managing our infrastructure and ensuring smooth deployment processes.",
+        "requirements": "Familiarity with Docker, Kubernetes, and CI/CD pipelines."
+      },
+      {
+        "title": "Frontend Developer",
+        "description": "We need a talented Frontend Developer to create amazing user experiences. You should be proficient in React and have a keen eye for design.",
+        "requirements": "Experience with React, HTML, CSS, and JavaScript. Knowledge of responsive design."
+      }
+    ]
   },
   "contact": {
     "title": "Contact Us",
-    "content": "This is the English content for the contact page."
+    "content": "This is the English content for the contact page.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Submit"
+    }
+  },
+  "footer": {
+    "companyInfo": "© 2023 Your Company. All rights reserved.",
+    "socialMedia": {
+      "facebook": "https://facebook.com/yourcompany",
+      "twitter": "https://twitter.com/yourcompany",
+      "linkedin": "https://linkedin.com/company/yourcompany"
+    },
+    "contact": {
+      "email": "contact@yourcompany.com",
+      "phone": "+1 234 567 890"
+    }
   }
 }

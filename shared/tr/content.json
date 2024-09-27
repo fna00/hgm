@@ -3,15 +3,49 @@
 
   "home": {
     "title": "Web sitemize hoş geldiniz",
-    "content": "Bu, ana sayfa için Türkçe içeriktir."
+    "content": "Bu, ana sayfa için Türkçe içeriktir.",
+    "cards": [
+      {
+        "imgSrc": "https://via.placeholder.com/50",
+        "title": "Yazılım Geliştirme",
+        "content": "Web Uygulamaları. Mobil Uygulamalar. UI/UX Tasarım"
+      },
+      {
+        "imgSrc": "https://via.placeholder.com/50",
+        "title": "Pazarlama Çözümleri",
+        "content": "Video Prodüksüyon. Sosyal Medya Yönetimi. Kreatif Çözümler. İçerik Yönetimi. Strateji"
+      },
+      {
+        "imgSrc": "https://via.placeholder.com/50",
+        "title": "Mekatronik Çözümler",
+        "content": "Endüstriyel Otomasyon. IoT Çözümleri"
+      }
+    ]
   },
   "about": {
     "title": "Hakkımızda",
     "content": "Bu, hakkımızda sayfası için Türkçe içeriktir."
   },
   "career": {
-    "title": "Kariyer",
-    "content": "Bu, kariyer sayfası için Türkçe içeriktir."
+    "title": "Ekibimize Katılın",
+    "content": "Şirketimizde, işbirlikçi ve yenilikçi bir çalışma ortamı yaratmaya inanıyoruz. Ekibimize katılacak yetenekli bireyler arıyoruz. Teknolojiye tutkuluysanız ve fark yaratmak istiyorsanız, sizden haber almak isteriz.",
+    "positions": [
+      {
+        "title": "Backend Geliştirici",
+        "description": "Ekibimize katılacak yetenekli bir Backend Geliştirici arıyoruz. Sunucu ve kullanıcılar arasındaki veri alışverişini yönetmekten sorumlu olacaksınız.",
+        "requirements": "Node.js, Express ve MongoDB konularında deneyim. RESTful API'ler hakkında bilgi."
+      },
+      {
+        "title": "Junior DevOps Mühendisi",
+        "description": "Ekibimize Junior DevOps Mühendisi olarak katılın. Altyapımızı yönetmeye ve sorunsuz dağıtım süreçlerini sağlamaya yardımcı olacaksınız.",
+        "requirements": "Docker, Kubernetes ve CI/CD süreçleri hakkında bilgi."
+      },
+      {
+        "title": "Frontend Geliştirici",
+        "description": "Harika kullanıcı deneyimleri yaratacak yetenekli bir Frontend Geliştiriciye ihtiyacımız var. React konusunda yetenekli olmalı ve tasarım konusunda iyi bir göze sahip olmalısınız.",
+        "requirements": "React, HTML, CSS ve JavaScript konularında deneyim. Responsive tasarım hakkında bilgi."
+      }
+    ]
   },
   "project": {
     "title": "Kullandığımız Teknolojiler",
@@ -61,6 +95,24 @@
   },
   "contact": {
     "title": "Bize Ulaşın",
-    "content": "Bu, iletişim sayfası için Türkçe içeriktir."
+    "content": "Bu, iletişim sayfası için Türkçe içeriktir.",
+    "form": {
+      "name": "Ad Soyad",
+      "email": "E-posta",
+      "message": "Mesaj",
+      "submit": "Gönder"
+    }
+  },
+  "footer": {
+    "companyInfo": "© 2023 Şirketiniz. Tüm hakları saklıdır.",
+    "socialMedia": {
+      "facebook": "https://facebook.com/yourcompany",
+      "twitter": "https://twitter.com/yourcompany",
+      "linkedin": "https://linkedin.com/company/yourcompany"
+    },
+    "contact": {
+      "email": "iletisim@yourcompany.com",
+      "phone": "+90 123 456 7890"
+    }
   }
 }
