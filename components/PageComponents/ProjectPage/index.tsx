@@ -21,13 +21,15 @@ function ProjectPage() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <div className="flex-grow relative container mx-auto px-4 mt-20">
-        <DescriptionBox
-          className={""}
-          title={data?.project.title}
-          content={data?.project.content}
-        />
-        <TechnologiesTable technologies={data?.project.technologies} />
+      <div className="flex-grow relative bg-white mt-20 text-black">
+        <div className="container mx-auto px-4">
+          <DescriptionBox
+            className={""}
+            title={data?.project.title}
+            content={data?.project.content}
+          />
+          <TechnologiesTable technologies={data?.project.technologies} />
+        </div>
       </div>
       <Footer data={data.footer} />
     </div>

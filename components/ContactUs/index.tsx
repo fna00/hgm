@@ -29,16 +29,13 @@ export default function ContactUs({ data }: ContactUsProps) {
   }
 
   return (
-    <div className="relative container mx-auto px-4 mt-20">
+    <div className="relative container mx-auto px-4 mt-20 text-black">
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">{data?.title}</h1>
         <p className="text-lg">{data?.content}</p>
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="mb-5">
-            <label
-              htmlFor="name"
-              className="mb-3 block text-base font-medium text-white"
-            >
+            <label htmlFor="name" className="mb-3 block text-base font-medium ">
               {data.form.name}
             </label>
             <input
@@ -49,10 +46,7 @@ export default function ContactUs({ data }: ContactUsProps) {
             />
           </div>
           <div className="mb-5">
-            <label
-              htmlFor="email"
-              className="mb-3 block text-base font-medium text-white"
-            >
+            <label htmlFor="email" className="mb-3 block text-base font-medium">
               {data.form.email}
             </label>
             <input
@@ -65,7 +59,7 @@ export default function ContactUs({ data }: ContactUsProps) {
           <div className="mb-5">
             <label
               htmlFor="message"
-              className="mb-3 block text-base font-medium text-white"
+              className="mb-3 block text-base font-medium "
             >
               {data.form.message}
             </label>
@@ -77,7 +71,7 @@ export default function ContactUs({ data }: ContactUsProps) {
             ></textarea>
           </div>
           <div>
-            <button className="hover:shadow-form rounded-md bg-purple-500 py-3 px-8 text-base font-semibold text-white outline-none">
+            <button className="hover:shadow-form rounded-md bg-customBlue py-3 px-8 text-base font-semibold text-white outline-none">
               {data.form.submit}
             </button>
           </div>
