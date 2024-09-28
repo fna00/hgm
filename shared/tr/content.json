@@ -2,7 +2,7 @@
   "menu": ["Ana Sayfa", "Hakkımızda", "Kariyer", "Projeler", "İletişim"],
 
   "home": {
-    "title": "Web sitemize hoş geldiniz",
+    "title": "Dijital Çözümler, Güçlü Yarınlar",
     "content": "Bu, ana sayfa için Türkçe içeriktir.",
     "cards": [
       {
@@ -95,10 +95,11 @@
   },
   "contact": {
     "title": "Bize Ulaşın",
-    "content": "Bu, iletişim sayfası için Türkçe içeriktir.",
+    "content": "Biz, işbirlikçi ve yenilikçi bir çalışma ortamı yaratmaya inanıyoruz. Ekibimize katılmak isteyen yetenekli bireyler arayışındayız. Teknolojiye tutkuluysanız ve fark yaratmak istiyorsanız, sizden haber almak isteriz.",
     "form": {
       "name": "Ad Soyad",
       "email": "E-posta",
+      "subject": "Konu",
       "message": "Mesaj",
       "submit": "Gönder"
     }
@@ -112,7 +113,11 @@
     },
     "contact": {
       "email": "softwarehgm@gmail.com",
-      "phone": "+90 123 456 7890"
+      "phone": "+90 539 677 70 73"
+    },
+    "address": {
+      "line1": "Gaci Paşa Mah. Boztepe Cad. No:42/A",
+      "line2": "Ortahisar, TRABZON"
     }
   }
 }

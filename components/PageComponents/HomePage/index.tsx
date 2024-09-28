@@ -9,6 +9,7 @@ import tr from "../../../shared/tr/content.json";
 import ar from "../../../shared/ar/content.json";
 import de from "../../../shared/de/content.json";
 import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
 
 export default function HomePage() {
   const params = useParams();
@@ -20,9 +21,11 @@ export default function HomePage() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <div className="flex-grow  py-8 text-white bg-white">
+      <Hero data={data.home} />
+      {/* <div className="flex-grow py-4 text-white bg-white">
         <InfoCard data={data.home} />
-      </div>
+      </div> */}
+      <InfoCard data={data.home} />
       <Footer data={data.footer} />
     </div>
   );

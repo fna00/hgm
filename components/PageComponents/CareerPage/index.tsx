@@ -17,13 +17,11 @@ export default function CareerPage() {
   const data =
     lang === "en" ? en : lang === "tr" ? tr : lang === "ar" ? ar : de;
 
-  console.log(data);
-
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
       <div className="flex-grow  py-8 text-black mt-20 bg-white">
-        <CareerCard data={data.career} />
+        <CareerCard data={data.career} lang={lang} />
       </div>
       <Footer data={data.footer} />
     </div>

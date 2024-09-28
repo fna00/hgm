@@ -42,6 +42,10 @@ const config: Config = {
       backgroundImage: {
         hero: "url('../assets/hero.png')",
       },
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+        windSong: ["WindSong"],
+      },
     },
   },
   plugins: [],

@@ -26,17 +26,16 @@ export default function Header() {
         {/* lg ve üstü boyutlarda gösterilecek içerik */}
         <div className="hidden lg:grid lg:grid-cols-3">
           <a className="flex items-center gap-2" href="/">
-            <BrandIcon className={"h-20 w-40"} />
+            <BrandIcon className={"h-20 w-40"} fill="white" />
           </a>
           <div className="hidden lg:flex justify-between items-center gap-10 flex-auto">
             <Menu
               lang={language}
               className={
-                "flex border-b-2 hover:scale-110 transition-all duration-300"
+                "flex flex-grow justify-center items-center border-b-2 hover:scale-110 transition-all duration-300 whitespace-nowrap"
               }
             />
           </div>
-
           <LanguagePicker currentLang={lang} />
         </div>
       </div>
@@ -51,7 +50,7 @@ export default function Header() {
                 <HamburgerIcon />
               </button>
               <a className="flex items-center gap-2" href="/">
-                <BrandIcon className={"h-20 w-40"} />
+                <BrandIcon className={"h-20 w-40"} fill="white" />
               </a>
               <LanguagePicker currentLang={lang} />
             </>

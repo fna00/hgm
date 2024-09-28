@@ -1,7 +1,7 @@
 {
   "menu": ["Startseite", "Über uns", "Karriere", "Projekte", "Kontakt"],
   "home": {
-    "title": "Willkommen auf unserer Website",
+    "title": "Digitale Lösungen, Starke Zukunft",
     "content": "Dies ist der deutsche Inhalt für die Startseite.",
     "cards": [
       {
@@ -99,6 +99,7 @@
     "form": {
       "name": "Vollständiger Name",
       "email": "E-Mail",
+      "subject": "Betreff",
       "message": "Nachricht",
       "submit": "Absenden"
     }
@@ -112,7 +113,11 @@
     },
     "contact": {
       "email": "softwarehgm@gmail.com",
-      "phone": "+49 123 456 7890"
+      "phone": "+90 539 677 70 73"
+    },
+    "address": {
+      "line1": "Gaci Paşa Mah. Boztepe Cad. No:42/A",
+      "line2": "Ortahisar, TRABZON"
     }
   }
 }

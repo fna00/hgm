@@ -2,7 +2,7 @@
   "menu": ["Home", "About", "Career", "Project", "Contact"],
 
   "home": {
-    "title": "Welcome to our website",
+    "title": "Digital Solutions, Strong Futures",
     "content": "This is the English content for the home page.",
     "cards": [
       {
@@ -96,10 +96,11 @@
   },
   "contact": {
     "title": "Contact Us",
-    "content": "This is the English content for the contact page.",
+    "content": "We believe in creating a collaborative and innovative work environment. We are always looking for talented individuals who want to join our team. If you are passionate about technology and want to make a difference, we would love to hear from you.",
     "form": {
       "name": "Full Name",
       "email": "Email",
+      "subject": "Subject",
       "message": "Message",
       "submit": "Submit"
     }
@@ -113,7 +114,11 @@
     },
     "contact": {
       "email": "softwarehgm@gmail.com",
-      "phone": "+1 234 567 890"
+      "phone": "+90 539 677 70 73"
+    },
+    "address": {
+      "line1": "Gaci Paşa Mah. Boztepe Cad. No:42/A",
+      "line2": "Ortahisar, TRABZON"
     }
   }
 }

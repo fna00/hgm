@@ -1,4 +1,7 @@
+"use client";
+
 import React from "react";
+import { useRouter } from "next/navigation";
 
 interface Position {
   title: string;
@@ -12,9 +15,18 @@ interface CareerCardProps {
     content: string;
     positions: Position[];
   };
+  lang: string;
 }
 
-export default function CareerPage({ data }: CareerCardProps) {
+export default function CareerPage({ data, lang }: CareerCardProps) {
+  const router = useRouter();
+
+  const handleApplyClick = (position: Position) => {
+    router.push(
+      `/${lang}/contact?subject=${encodeURIComponent(position.title)}`
+    );
+  };
+
   return (
     <div className="container mx-auto p-4">
       <div className="text-center mb-8 text-black">
@@ -33,7 +45,10 @@ export default function CareerPage({ data }: CareerCardProps) {
               <h3 className="text-xl font-semibold">Requirements:</h3>
               <p className="text-lg">{position.requirements}</p>
             </div>
-            <button className="p-4 px-8 bg-customBlue text-white mt-4 self-start">
+            <button
+              className="p-4 px-8 bg-customBlue text-white mt-4 self-start"
+              onClick={() => handleApplyClick(position)}
+            >
               Başvur
             </button>
           </div>
