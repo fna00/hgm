@@ -1,5 +1,12 @@
 {
-  "menu": ["Startseite", "Über uns", "Karriere", "Projekte", "Kontakt"],
+  "menu": [
+    "Startseite",
+    "Über uns",
+    "Institutionell",
+    "Karriere",
+    "Projekte",
+    "Kontakt"
+  ],
   "home": {
     "title": "Digitale Lösungen, Starke Zukunft",
     "content": "Dies ist der deutsche Inhalt für die Startseite.",
@@ -23,9 +30,46 @@
   },
   "about": {
     "title": "Über uns",
-    "content": "Dies ist der deutsche Inhalt für die Seite Über uns."
+    "content": "HGM Software zielt darauf ab, die sich entwickelnde Technologie und den Handel sowohl in unserem Land als auch weltweit effektiv zu verwalten. Unsere Software \"Business Management System\" ist darauf ausgelegt, Geschäftsprozesse zu optimieren, die Effizienz zu steigern und eine benutzerfreundliche Erfahrung zu bieten. Als HGM Software-Familie sind wir bestrebt, unseren Kunden qualitativ hochwertigen Service zu bieten. Wir sind begeistert und erfreut, mit Ihnen in die Zukunft zu gehen und Ihnen den besten Service zu bieten. Mit freundlichen Grüßen, HGM Software",
+    "mission": {
+      "title": "Mission",
+      "content": "Als HGM Software ist es unsere Mission, Geschäftsprozesse zu optimieren und die Effizienz zu steigern, indem wir unseren Kunden innovative und effektive Softwarelösungen bieten. Durch den effektiven Einsatz von Technologie wollen wir unseren Kunden helfen, ihre Geschäftsziele zu erreichen."
+    },
+    "vision": {
+      "title": "Vision",
+      "content": "Unsere Vision ist es, HGM Software zu einem globalen Softwareführer zu machen und unseren Kunden den höchsten Qualitätsservice zu bieten. In Zukunft streben wir danach, eine Welt voller technologischer Innovationen zu schaffen und zum Erfolg unserer Kunden beizutragen."
+    }
   },
-
+  "corporate": {
+    "title": "Unternehmen",
+    "content": "Unternehmensinhalte werden hier auf Türkisch verfügbar sein.",
+    "directors": {
+      "title": "Vorstand",
+      "members": [
+        {
+          "name": "Ali Yılmaz",
+          "position": "Vorstandsvorsitzender"
+        },
+        {
+          "name": "Ayşe Kaya",
+          "position": "Vorstandsmitglied"
+        }
+      ]
+    },
+    "team": {
+      "title": "Unser Team",
+      "members": [
+        {
+          "name": "Mehmet Demir",
+          "position": "Leiter Softwareentwicklung"
+        },
+        {
+          "name": "Fatma Yıldız",
+          "position": "Marketing Managerin"
+        }
+      ]
+    }
+  },
   "project": {
     "title": "Unsere Projekte",
     "content": "Dies ist der deutsche Inhalt für die Projektseite.",
@@ -116,7 +160,7 @@
       "phone": "+90 539 677 70 73"
     },
     "address": {
-      "line1": "Gaci Paşa Mah. Boztepe Cad. No:42/A",
+      "line1": "Gazi Paşa Mah. Boztepe Cad. No:42/A",
       "line2": "Ortahisar, TRABZON"
     }
   }

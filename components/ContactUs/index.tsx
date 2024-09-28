@@ -8,7 +8,7 @@ export type FormData = {
   email: string;
   subject: string;
   message: string;
-  file: FileList;
+  file?: FileList;
 };
 
 interface ContactUsProps {
@@ -20,7 +20,7 @@ interface ContactUsProps {
       email: string;
       subject: string;
       message: string;
-      file: string;
+      file?: string;
       submit: string;
     };
   };

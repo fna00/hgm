@@ -1,5 +1,5 @@
 {
-  "menu": ["Home", "About", "Career", "Project", "Contact"],
+  "menu": ["Home", "About", "Corporate", "Career", "Project", "Contact"],
 
   "home": {
     "title": "Digital Solutions, Strong Futures",
@@ -24,9 +24,46 @@
   },
   "about": {
     "title": "About Us",
-    "content": "This is the English content for the about page."
+    "content": "HGM Software aims to effectively manage developing technology and commerce both in our country and around the world. Our \"Business Management System\" software is designed to optimize business processes, increase efficiency, and provide a user-friendly experience. As the HGM Software family, we are committed to providing quality service to our customers. We are excited and pleased to step into the future with you and to offer you the best service. Best regards, HGM Software",
+    "mission": {
+      "title": "Mission",
+      "content": "As HGM Software, our mission is to optimize business processes and increase efficiency by providing our customers with innovative and effective software solutions. By using technology effectively, we aim to help our customers achieve their business goals."
+    },
+    "vision": {
+      "title": "Vision",
+      "content": "Our vision is to make HGM Software a global software leader and to provide our customers with the highest quality service. In the future, we aim to create a world full of technological innovations and contribute to the success of our customers."
+    }
   },
-
+  "corporate": {
+    "title": "Corporate",
+    "content": "Corporate content will be available here in Turkish.",
+    "directors": {
+      "title": "Board of Directors",
+      "members": [
+        {
+          "name": "Ali Yılmaz",
+          "position": "Chairman of the Board"
+        },
+        {
+          "name": "Ayşe Kaya",
+          "position": "Board Member"
+        }
+      ]
+    },
+    "team": {
+      "title": "Our Team",
+      "members": [
+        {
+          "name": "Mehmet Demir",
+          "position": "Software Development Manager"
+        },
+        {
+          "name": "Fatma Yıldız",
+          "position": "Marketing Manager"
+        }
+      ]
+    }
+  },
   "project": {
     "title": "Our Projects",
     "content": "This is the English content for the projects page.",
@@ -117,7 +154,7 @@
       "phone": "+90 539 677 70 73"
     },
     "address": {
-      "line1": "Gaci Paşa Mah. Boztepe Cad. No:42/A",
+      "line1": "Gazi Paşa Mah. Boztepe Cad. No:42/A",
       "line2": "Ortahisar, TRABZON"
     }
   }

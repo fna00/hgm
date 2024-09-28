@@ -13,7 +13,14 @@ interface MenuProps {
 }
 
 export default function Menu({ lang, className }: MenuProps) {
-  const navigateKeys = ["home", "about", "career", "project", "contact"];
+  const navigateKeys = [
+    "home",
+    "about",
+    "corporate",
+    "career",
+    "project",
+    "contact",
+  ];
 
   const menuItems =
     lang === "en"

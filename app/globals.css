@@ -21,6 +21,36 @@ body {
 }
 
 @layer utilities {
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .slide-in-right {
+    animation: slideInFromRight 3s forwards;
+  }
+
+  .slide-in-left {
+    animation: slideInFromLeft 3s forwards;
+  }
+
   @keyframes float {
     0% {
       transform: translateY(0);

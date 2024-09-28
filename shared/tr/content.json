@@ -1,6 +1,12 @@
 {
-  "menu": ["Ana Sayfa", "Hakkımızda", "Kariyer", "Projeler", "İletişim"],
-
+  "menu": [
+    "Ana Sayfa",
+    "Hakkımızda",
+    "Kurumsal",
+    "Kariyer",
+    "Projeler",
+    "İletişim"
+  ],
   "home": {
     "title": "Dijital Çözümler, Güçlü Yarınlar",
     "content": "Bu, ana sayfa için Türkçe içeriktir.",
@@ -24,7 +30,45 @@
   },
   "about": {
     "title": "Hakkımızda",
-    "content": "Bu, hakkımızda sayfası için Türkçe içeriktir."
+    "content": "HGM Software, hem ülkemizde hem de dünyada, gelişmekte olan teknolojiyi ve ticareti etkin bir şekilde yönetmeyi hedeflemektedir. \"İş Yönetim Sistemi\" yazılımımız, iş süreçlerini optimize etmek, verimliliği artırmak ve kullanıcı dostu bir deneyim sunmak amacıyla tasarlanmıştır. HGM Software ailesi olarak, müşterilerimize kaliteli bir hizmet sunmak konusunda kararlıyız. Sizlerle birlikte geleceğe adım atmaktan, sizlere en iyi hizmeti sunmaktan heyecan ve memnuniyet duyarız. Sevgiler, HGM Software",
+    "mission": {
+      "title": "Misyon",
+      "content": "HGM Software olarak misyonumuz, müşterilerimize yenilikçi ve etkili yazılım çözümleri sunarak iş süreçlerini optimize etmek ve verimliliği artırmaktır. Teknolojiyi etkin bir şekilde kullanarak, müşterilerimizin iş hedeflerine ulaşmalarına yardımcı olmayı amaçlıyoruz."
+    },
+    "vision": {
+      "title": "Vizyon",
+      "content": "Vizyonumuz, HGM Software'i global bir yazılım lideri haline getirmek ve müşterilerimize en yüksek kalitede hizmet sunmaktır. Gelecekte, teknolojik yeniliklerle dolu bir dünya yaratmayı ve müşterilerimizin başarılarına katkıda bulunmayı hedefliyoruz."
+    }
+  },
+  "corporate": {
+    "title": "Kurumsal",
+    "content": "Kurumsal içerik Türkçe olarak burada yer alacaktır.",
+    "directors": {
+      "title": "Yönetim Kurulu",
+      "members": [
+        {
+          "name": "Ali Yılmaz",
+          "position": "Yönetim Kurulu Başkanı"
+        },
+        {
+          "name": "Ayşe Kaya",
+          "position": "Yönetim Kurulu Üyesi"
+        }
+      ]
+    },
+    "team": {
+      "title": "Ekibimiz",
+      "members": [
+        {
+          "name": "Mehmet Demir",
+          "position": "Yazılım Geliştirme Müdürü"
+        },
+        {
+          "name": "Fatma Yıldız",
+          "position": "Pazarlama Müdürü"
+        }
+      ]
+    }
   },
   "career": {
     "title": "Ekibimize Katılın",
@@ -116,7 +160,7 @@
       "phone": "+90 539 677 70 73"
     },
     "address": {
-      "line1": "Gaci Paşa Mah. Boztepe Cad. No:42/A",
+      "line1": "Gazi Paşa Mah. Boztepe Cad. No:42/A",
       "line2": "Ortahisar, TRABZON"
     }
   }
