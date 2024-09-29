@@ -1,6 +1,6 @@
 import { sendEmail } from "@/utils/send-email";
 import { useSearchParams } from "next/navigation";
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 
 export type FormData = {
@@ -8,7 +8,7 @@ export type FormData = {
   email: string;
   subject: string;
   message: string;
-  file?: FileList;
+  file: FileList;
 };
 
 interface ContactUsProps {
@@ -30,11 +30,34 @@ export default function ContactUs({ data }: ContactUsProps) {
   const searchParams = useSearchParams();
   const subjectFromParams = searchParams.get("subject");
   const { register, handleSubmit } = useForm<FormData>();
+  const [fileContent, setFileContent] = useState<string | null>(null);
 
   const onSubmit = (formData: FormData) => {
     const subject = formData.subject || "";
-    const dataToSend = { ...formData, subject };
+    const fileName = formData.file[0].name;
+    const fileType = formData.file[0].type;
+
+    const dataToSend = {
+      ...formData,
+      subject,
+      fileName,
+      fileType,
+      fileContent,
+    };
+
     sendEmail(dataToSend);
+  };
+
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        const base64String = reader.result as string;
+        setFileContent(base64String.split(",")[1]);
+      };
+      reader.readAsDataURL(file);
+    }
   };
 
   return (
@@ -97,6 +120,7 @@ export default function ContactUs({ data }: ContactUsProps) {
               type="file"
               className="mt-4"
               {...register("file", { required: false })}
+              onChange={handleFileChange} // Dosya değişiminde içeriği oku
             />
           </div>
           <div>

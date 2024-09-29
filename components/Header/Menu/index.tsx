@@ -39,7 +39,7 @@ export default function Menu({ lang, className }: MenuProps) {
 
         return (
           <Link key={index} className={className} href={`/${lang}${`/${key}`}`}>
-            <p className=" border-b-2 hover:scale-110 transition-all duration-300">
+            <p className="lg:border-b-2 hover:scale-125 transition-all duration-300">
               {item}
             </p>
           </Link>

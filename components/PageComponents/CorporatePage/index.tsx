@@ -18,54 +18,60 @@ export default function CorporatePage() {
     lang === "en" ? en : lang === "tr" ? tr : lang === "ar" ? ar : de;
   return (
     <div>
-      <div className="flex flex-col min-h-screen">
+      <div className="flex text-black flex-col min-h-screen">
         <Header />
         <div className="flex-grow mt-20 content-center bg-white border-b-[100px]">
-          <div className="container mx-auto px-4 py-8 text-black">
+          <div className="container mx-auto px-4 py-8">
             <h1 className="text-3xl font-bold mb-4">
               {data?.corporate.directors.title}
             </h1>
+
             <div className="grid md:grid-cols-3 grid-cols-2 gap-4 text-lg">
               {data?.corporate.directors.members.map((member, index) => (
-                <div
-                  key={index}
-                  className="flex flex-col items-center justify-center p-4"
-                >
-                  <Image
-                    src="https://picsum.photos/400/500"
-                    className="rounded-2xl"
-                    width={400}
-                    height={500}
-                    alt={member.name}
-                  />
-                  <h2 className="text-2xl font-bold my-4">{member.name}</h2>
-                  <p className="text-lg">{member.position}</p>
+                <div key={index} className="flex flex-col justify-between p-4">
+                  <div>
+                    <Image
+                      src="https://picsum.photos/400/500"
+                      className="rounded-2xl"
+                      width={400}
+                      height={500}
+                      alt={member.name}
+                    />
+                    <h2 className="text-2xl font-bold my-4">{member.name}</h2>{" "}
+                  </div>
+                  <div>
+                    <p className="text-lg">{member.position}</p>
+                  </div>
                 </div>
               ))}
             </div>
           </div>
         </div>
         <div className="flex-grow py-8 content-center bg-white">
-          <div className="container mx-auto px-4 text-black">
-            <h1 className="text-2xl font-bold mb-4">
+          <div className="container mx-auto px-4">
+            <h1 className="text-3xl font-bold mb-4">
               {data?.corporate.team.title}
             </h1>
             <div className="grid md:grid-cols-3 grid-cols-2 gap-4 text-lg">
               {data?.corporate.team.members.map((member) => (
                 <div
                   key={member.name}
-                  className="flex flex-col items-center justify-center p-4"
+                  className="flex flex-col justify-between p-4"
                 >
-                  <Image
-                    src="https://picsum.photos/400/500"
-                    alt={member.name}
-                    width={400}
-                    height={500}
-                    className="rounded-2xl"
-                  />
+                  <div>
+                    <Image
+                      src="https://picsum.photos/400/500"
+                      alt={member.name}
+                      width={400}
+                      height={500}
+                      className="rounded-2xl"
+                    />
 
-                  <h2 className="text-xl font-bold my-4">{member.name}</h2>
-                  <p className="text-lg">{member.position}</p>
+                    <h2 className="text-2xl font-bold my-4">{member.name}</h2>
+                  </div>
+                  <div>
+                    <p className="text-lg">{member.position}</p>
+                  </div>
                 </div>
               ))}
             </div>

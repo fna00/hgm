@@ -82,38 +82,4 @@ body {
     overflow: hidden;
     z-index: -1;
   }
-
-  .background-animation .circle-1,
-  .background-animation .circle-2,
-  .background-animation .circle-3 {
-    position: absolute;
-    border-radius: 50%;
-    background-color: white;
-    opacity: 0.3;
-  }
-
-  .background-animation .circle-1 {
-    width: 8rem;
-    height: 8rem;
-    bottom: 0;
-    animation: float 5s infinite ease-in-out alternate;
-  }
-
-  .background-animation .circle-2 {
-    width: 6rem;
-    height: 6rem;
-    bottom: 2.5rem;
-    right: 2.5rem;
-    opacity: 0.2;
-    animation: float 5s infinite ease-in-out alternate 2s;
-  }
-
-  .background-animation .circle-3 {
-    width: 10rem;
-    height: 10rem;
-    bottom: 5rem;
-    left: 2.5rem;
-    opacity: 0.4;
-    animation: float 5s infinite ease-in-out alternate 3s;
-  }
 }

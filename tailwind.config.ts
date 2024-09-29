@@ -29,7 +29,8 @@ const config: Config = {
         },
       },
       animation: {
-        slideIn: "slideIn 0.5s ease-out forwards",
+        slideIn: "slideIn 0.5s forwards",
+        slideOut: "slideOut 0.5s forwards",
       },
       colors: {
         background: "var(--background)",

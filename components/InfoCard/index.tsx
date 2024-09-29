@@ -1,46 +1,3 @@
-// import clsx from "clsx";
-// import React from "react";
-
-// interface Card {
-//   data: {
-//     cards: {
-//       title: string;
-//       content: string;
-//     }[];
-//   };
-// }
-
-// export default function InfoCard({ data }: Card) {
-//   return (
-//     <div className="text-black">
-//       {data.cards.map((card, index) => (
-//         <div
-//           key={index}
-//           className={clsx(
-//             "w-full flex justify-between p-10 shadow-xl",
-//             index % 2 === 0 ? "bg-transparent flex-row-reverse" : "bg-gray-100"
-//           )}
-//         >
-//           <div className="container mx-auto content-center">
-//             <h2 className="flex justify-center text-2xl font-bold text-customBlue">
-//               {card.title}
-//             </h2>
-//           </div>
-//           <div className="container mx-auto content-center">
-//             <div className="flex justify-center ">
-//               <ul className="text-lg list-disc list-inside">
-//                 {card.content.split(". ").map((item, i) => (
-//                   <li key={i}>{item}</li>
-//                 ))}
-//               </ul>
-//             </div>
-//           </div>
-//         </div>
-//       ))}
-//     </div>
-//   );
-// }
-
 "use client";
 
 import clsx from "clsx";
@@ -82,15 +39,15 @@ export default function InfoCard({ data }: Card) {
   }, []);
 
   return (
-    <div className="text-black mx-40">
+    <div className="text-black lg:mx-40 container mx-auto px-4">
       {data.cards.map((card, index) => (
         <div
           key={index}
           className={clsx(
-            "w-full flex justify-between p-10 shadow-xl my-4",
+            "w-full lg:flex lg:justify-between p-10 shadow-xl my-4 rounded-2xl lg:rounded-full min-h-56",
             index % 2 === 0
-              ? "bg-gray-100 flex-row-reverse slide-right rounded-l-full"
-              : "bg-gray-300 slide-left rounded-r-full"
+              ? "bg-gray-100 flex-row-reverse slide-right"
+              : "bg-gray-300 slide-left "
           )}
         >
           <div className="container mx-auto content-center">

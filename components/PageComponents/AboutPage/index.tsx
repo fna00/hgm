@@ -19,13 +19,13 @@ function AboutPage() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <div className="flex-grow mt-20 content-center bg-gray-100 h-56">
+      <div className="flex-grow mt-20 content-center bg-gray-100 min-h-56">
         <div className="container mx-auto px-4 py-8 text-black">
           <h1 className="text-3xl font-bold mb-4">{data?.about.title}</h1>
           <p className="text-lg">{data?.about.content}</p>
         </div>
       </div>
-      <div className="flex-grow py-8 content-center bg-white h-56">
+      <div className="flex-grow py-8 content-center bg-white min-h-56">
         <div className="container mx-auto px-4 text-black">
           <h1 className="text-2xl font-bold mb-4  border-b-2">
             {data?.about.mission.title}
@@ -33,7 +33,7 @@ function AboutPage() {
           <p className="text-lg">{data?.about.mission.content}</p>
         </div>
       </div>
-      <div className="flex-grow content-center bg-gray-100 h-56">
+      <div className="flex-grow content-center bg-gray-100 min-h-56">
         <div className="container mx-auto px-4 py-8 text-black">
           <h1 className="text-2xl font-bold mb-4 border-b-2">
             {data?.about.vision.title}

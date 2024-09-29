@@ -3,9 +3,8 @@ import nodemailer from "nodemailer";
 import Mail from "nodemailer/lib/mailer";
 
 export async function POST(request: NextRequest) {
-  const { email, name, subject, file, message } = await request.json();
-
-  console.log("file", file);
+  const { email, name, subject, fileName, message, fileType, fileContent } =
+    await request.json();
 
   const transport = nodemailer.createTransport({
     service: "gmail",
@@ -16,15 +15,18 @@ export async function POST(request: NextRequest) {
   });
 
   const mailOptions: Mail.Options = {
-    from: process.env.MY_EMAIL,
+    from: `"${name}"`,
     to: process.env.MY_EMAIL,
+    replyTo: email,
     // cc: email, (uncomment this line if you want to send a copy to the sender)
     subject: `${subject} | ${name} (${email})`,
     text: message,
     attachments: [
       {
-        filename: file[0].name, // Name of the attachment
-        contentType: file[0].type, // MIME type of the attachment (e.g., 'application/pdf', 'image/jpeg')
+        filename: fileName, // Dosya adı
+        content: fileContent, // Dosya içeriği (base64)
+        encoding: "base64", // İçeriği base64 formatında gönderiyoruz
+        contentType: fileType, // Dosya türü
       },
     ],
   };

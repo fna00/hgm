@@ -41,7 +41,7 @@
       "title": "Board of Directors",
       "members": [
         {
-          "name": "Ali Yılmaz",
+          "name": "Hasan Hasanoğlu",
           "position": "Chairman of the Board"
         },
         {
@@ -54,12 +54,12 @@
       "title": "Our Team",
       "members": [
         {
-          "name": "Mehmet Demir",
-          "position": "Software Development Manager"
+          "name": "Mertcan Altun",
+          "position": "Software Manager"
         },
         {
-          "name": "Fatma Yıldız",
-          "position": "Marketing Manager"
+          "name": "Ceyda Gül Çınardal",
+          "position": "Deputy Software Manager"
         }
       ]
     }
