@@ -119,6 +119,7 @@
   "career": {
     "title": "Karriere",
     "content": "Dies ist der deutsche Inhalt für die Karriereseite.",
+    "requirements": "Anforderungen",
     "positions": [
       {
         "title": "Backend-Entwickler",

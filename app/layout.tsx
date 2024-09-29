@@ -15,6 +15,29 @@ export default function RootLayout({
   return (
     <ReactQueryProvider>
       <html lang="en">
+        <head>
+          <link rel="icon" href="/favicon.ico" sizes="any" />
+
+          <link
+            rel="icon"
+            href="/icon?<generated>"
+            type="image/<generated>"
+            sizes="<generated>"
+          />
+          <link
+            rel="apple-touch-icon"
+            href="/apple-icon?<generated>"
+            type="image/<generated>"
+            sizes="<generated>"
+          />
+
+          <meta name="theme-color" content="#ffffff" />
+          <meta name="apple-mobile-web-app-capable" content="yes" />
+          <meta
+            name="apple-mobile-web-app-status-bar-style"
+            content="black-translucent"
+          />
+        </head>
         <body className={`min-h-screen antialiased`}>{children}</body>
       </html>
     </ReactQueryProvider>

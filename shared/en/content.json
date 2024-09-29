@@ -113,6 +113,7 @@
   "career": {
     "title": "Join Our Team",
     "content": "At our company, we believe in fostering a collaborative and innovative work environment. We are always on the lookout for talented individuals to join our team. If you are passionate about technology and eager to make a difference, we would love to hear from you.",
+    "requirements": "Requirements",
     "positions": [
       {
         "title": "Backend Developer",

@@ -47,7 +47,7 @@ export default function CorporatePage() {
         </div>
         <div className="flex-grow py-8 content-center bg-white">
           <div className="container mx-auto px-4 text-black">
-            <h1 className="text-2xl font-bold mb-4 ">
+            <h1 className="text-2xl font-bold mb-4">
               {data?.corporate.team.title}
             </h1>
             <div className="grid md:grid-cols-3 grid-cols-2 gap-4 text-lg">

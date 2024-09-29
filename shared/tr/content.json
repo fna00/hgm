@@ -73,6 +73,7 @@
   "career": {
     "title": "Ekibimize Katılın",
     "content": "Şirketimizde, işbirlikçi ve yenilikçi bir çalışma ortamı yaratmaya inanıyoruz. Ekibimize katılacak yetenekli bireyler arıyoruz. Teknolojiye tutkuluysanız ve fark yaratmak istiyorsanız, sizden haber almak isteriz.",
+    "requirements": "Gereksinimler",
     "positions": [
       {
         "title": "Backend Geliştirici",

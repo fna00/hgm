@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import ContactPage from "@/components/PageComponents/ContactPage";
 
 // Statik parametreleri önceden belirleyin
@@ -12,8 +12,14 @@ export async function generateStaticParams() {
   ];
 }
 
-function About() {
+function Contact() {
   return <ContactPage />;
 }
 
-export default About;
+export default function WrappedContact() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <Contact />
+    </Suspense>
+  );
+}

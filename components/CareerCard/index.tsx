@@ -13,6 +13,7 @@ interface CareerCardProps {
   data: {
     title: string;
     content: string;
+    requirements: string;
     positions: Position[];
   };
   lang: string;
@@ -42,7 +43,7 @@ export default function CareerPage({ data, lang }: CareerCardProps) {
             <div>
               <h2 className="text-2xl font-bold mb-2">{position.title}</h2>
               <p className="text-lg mb-2">{position.description}</p>
-              <h3 className="text-xl font-semibold">Requirements:</h3>
+              <h3 className="text-xl font-semibold">{data.requirements}</h3>
               <p className="text-lg">{position.requirements}</p>
             </div>
             <button

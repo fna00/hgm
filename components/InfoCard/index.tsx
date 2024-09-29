@@ -82,15 +82,15 @@ export default function InfoCard({ data }: Card) {
   }, []);
 
   return (
-    <div className="text-black">
+    <div className="text-black mx-40">
       {data.cards.map((card, index) => (
         <div
           key={index}
           className={clsx(
-            "w-full flex justify-between p-10 shadow-xl",
+            "w-full flex justify-between p-10 shadow-xl my-4",
             index % 2 === 0
-              ? "bg-transparent flex-row-reverse slide-right"
-              : "bg-gray-100 slide-left"
+              ? "bg-gray-100 flex-row-reverse slide-right rounded-l-full"
+              : "bg-gray-300 slide-left rounded-r-full"
           )}
         >
           <div className="container mx-auto content-center">

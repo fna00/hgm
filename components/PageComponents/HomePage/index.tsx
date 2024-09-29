@@ -19,7 +19,7 @@ export default function HomePage() {
     lang === "en" ? en : lang === "tr" ? tr : lang === "ar" ? ar : de;
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen overflow-x-hidden">
       <Header />
       <Hero data={data.home} />
       <InfoCard data={data.home} />
