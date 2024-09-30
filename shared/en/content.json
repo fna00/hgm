@@ -41,12 +41,14 @@
       "title": "Board of Directors",
       "members": [
         {
+          "imgSrc": "https://via.placeholder.com/50",
           "name": "Hasan Hasanoğlu",
           "position": "Chairman of the Board"
         },
         {
-          "name": "Ayşe Kaya",
-          "position": "Board Member"
+          "imgSrc": "https://via.placeholder.com/50",
+          "name": "Ömer Faruk Göksal",
+          "position": "Deputy Chairman of the Board"
         }
       ]
     },
@@ -54,10 +56,12 @@
       "title": "Our Team",
       "members": [
         {
+          "imgSrc": "https://via.placeholder.com/50",
           "name": "Mertcan Altun",
           "position": "Software Manager"
         },
         {
+          "imgSrc": "https://via.placeholder.com/50",
           "name": "Ceyda Gül Çınardal",
           "position": "Deputy Software Manager"
         }
@@ -146,9 +150,9 @@
   "footer": {
     "companyInfo": "© 2024 HGM Software. All rights reserved.",
     "socialMedia": {
-      "facebook": "https://facebook.com/yourcompany",
-      "twitter": "https://twitter.com/yourcompany",
-      "linkedin": "https://linkedin.com/company/yourcompany"
+      "facebook": "https://facebook.com/hgmsoftware",
+      "twitter": "https://twitter.com/hgmsoftware",
+      "linkedin": "https://www.linkedin.com/in/hgmsoftware/"
     },
     "contact": {
       "email": "softwarehgm@gmail.com",

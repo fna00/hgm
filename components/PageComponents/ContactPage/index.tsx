@@ -38,7 +38,7 @@ export default function ContactPage() {
           <h2 className="text-2xl font-bold mb-4">Contact Information</h2>
           <p className="mb-2">
             <strong>Address:</strong>
-            {data.footer.address.line1 + data.footer.address.line2}
+            {data.footer.address.line1 + " " + data.footer.address.line2}
           </p>
           <p className="mb-2">
             <strong>Phone:</strong> {data.footer.contact.phone}

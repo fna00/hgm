@@ -47,12 +47,14 @@
       "title": "Yönetim Kurulu",
       "members": [
         {
-          "name": "Ali Yılmaz",
+          "imgSrc": "https://via.placeholder.com/50",
+          "name": "Hasan Hasanoğlu",
           "position": "Yönetim Kurulu Başkanı"
         },
         {
-          "name": "Ayşe Kaya",
-          "position": "Yönetim Kurulu Üyesi"
+          "imgSrc": "https://via.placeholder.com/50",
+          "name": "Ömer Faruk Göksal",
+          "position": "Yönetim Kurulu Başkan Vekili"
         }
       ]
     },
@@ -60,12 +62,14 @@
       "title": "Ekibimiz",
       "members": [
         {
-          "name": "Mehmet Demir",
+          "imgSrc": "https://via.placeholder.com/50",
+          "name": "Mertcan Altun",
           "position": "Yazılım Geliştirme Müdürü"
         },
         {
-          "name": "Fatma Yıldız",
-          "position": "Pazarlama Müdürü"
+          "imgSrc": "https://via.placeholder.com/50",
+          "name": "Ceyda Gül Çınardal",
+          "position": "Yazılım Geliştirme Müdürü Yardımcısı"
         }
       ]
     }
@@ -152,16 +156,16 @@
   "footer": {
     "companyInfo": "© 2024 HGM Software. Tüm hakları saklıdır.",
     "socialMedia": {
-      "facebook": "https://facebook.com/yourcompany",
-      "twitter": "https://twitter.com/yourcompany",
-      "linkedin": "https://linkedin.com/company/yourcompany"
+      "facebook": "https://facebook.com/hgmsoftware",
+      "twitter": "https://twitter.com/hgmsoftware",
+      "linkedin": "https://www.linkedin.com/in/hgmsoftware/"
     },
     "contact": {
       "email": "softwarehgm@gmail.com",
       "phone": "+90 539 677 70 73"
     },
     "address": {
-      "line1": "Gazi Paşa Mah. Boztepe Cad. No:42/A",
+      "line1": "Gazi Paşa Mah. Boztepe Cad. No:42/A ",
       "line2": "Ortahisar, TRABZON"
     }
   }

@@ -40,12 +40,14 @@
       "title": "مجلس الإدارة",
       "members": [
         {
-          "name": "علي يلماز",
+          "imgSrc": "https://via.placeholder.com/50",
+          "name": "حسن حسن أوغلو",
           "position": "رئيس مجلس الإدارة"
         },
         {
-          "name": "عائشة كايا",
-          "position": "عضو مجلس الإدارة"
+          "imgSrc": "https://via.placeholder.com/50",
+          "name": "عمر فاروق جوكسال",
+          "position": "نائب رئيس مجلس الإدارة"
         }
       ]
     },
@@ -53,12 +55,14 @@
       "title": "فريقنا",
       "members": [
         {
-          "name": "محمد دمير",
-          "position": "مدير تطوير البرمجيات"
+          "imgSrc": "https://via.placeholder.com/50",
+          "name": "ميرتجان ألتون",
+          "position": "مدير البرمجيات"
         },
         {
-          "name": "فاطمة يلديز",
-          "position": "مديرة التسويق"
+          "imgSrc": "https://via.placeholder.com/50",
+          "name": "جيدا جول جيناردال",
+          "position": "نائب مدير البرمجيات"
         }
       ]
     }
@@ -115,7 +119,7 @@
     "requirements": "المتطلبات",
     "positions": [
       {
-        "title": "مطور Backend",
+        "title": "مطور الواجهة الخلفية",
         "description": "نحن نبحث عن مطور Backend ماهر للانضمام إلى فريقنا. ستكون مسؤولاً عن إدارة تبادل البيانات بين الخادم والمستخدمين.",
         "requirements": "خبرة في Node.js و Express و MongoDB. معرفة بـ RESTful APIs."
       },
@@ -125,7 +129,7 @@
         "requirements": "معرفة بـ Docker و Kubernetes و CI/CD pipelines."
       },
       {
-        "title": "مطور Frontend",
+        "title": "مطور الواجهة الأمامية",
         "description": "نحتاج إلى مطور Frontend موهوب لإنشاء تجارب مستخدم رائعة. يجب أن تكون ماهرًا في React ولديك عين جيدة للتصميم.",
         "requirements": "خبرة في React و HTML و CSS و JavaScript. معرفة بتصميم الاستجابة."
       }
@@ -145,16 +149,16 @@
   "footer": {
     "companyInfo": "© 2024 شركتك. جميع الحقوق محفوظة.",
     "socialMedia": {
-      "facebook": "https://facebook.com/yourcompany",
-      "twitter": "https://twitter.com/yourcompany",
-      "linkedin": "https://linkedin.com/company/yourcompany"
+      "facebook": "https://facebook.com/hgmsoftware",
+      "twitter": "https://twitter.com/hgmsoftware",
+      "linkedin": "https://www.linkedin.com/in/hgmsoftware/"
     },
     "contact": {
       "email": "softwarehgm@gmail.com",
       "phone": "+90 539 677 70 73"
     },
     "address": {
-      "line1": "Gazi Paşa Mah. Boztepe Cad. No:42/A",
+      "line1": "Gazi Paşa Mah. Boztepe Cad. No:42/A ",
       "line2": "Ortahisar, TRABZON"
     }
   }

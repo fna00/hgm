@@ -21,7 +21,7 @@ export default function CorporatePage() {
       <div className="flex text-black flex-col min-h-screen">
         <Header />
         <div className="flex-grow mt-20 content-center bg-white border-b-[100px]">
-          <div className="container mx-auto px-4 py-8">
+          <div className="container mx-auto py-8">
             <h1 className="text-3xl font-bold mb-4">
               {data?.corporate.directors.title}
             </h1>
@@ -31,7 +31,7 @@ export default function CorporatePage() {
                 <div key={index} className="flex flex-col justify-between p-4">
                   <div>
                     <Image
-                      src="https://picsum.photos/400/500"
+                      src="https://placehold.jp/400x500.png"
                       className="rounded-2xl"
                       width={400}
                       height={500}
@@ -60,7 +60,7 @@ export default function CorporatePage() {
                 >
                   <div>
                     <Image
-                      src="https://picsum.photos/400/500"
+                      src="https://placehold.jp/400x500.png"
                       alt={member.name}
                       width={400}
                       height={500}
