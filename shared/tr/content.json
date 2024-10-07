@@ -13,7 +13,7 @@
     "cards": [
       {
         "imgSrc": "https://via.placeholder.com/50",
-        "title": "Yazılım Geliştirme",
+        "title": "Yazılım Çözümleri",
         "content": "Web Uygulamaları. Mobil Uygulamalar. UI/UX Tasarım"
       },
       {
@@ -50,28 +50,12 @@
           "imgSrc": "https://via.placeholder.com/50",
           "name": "Hasan Hasanoğlu",
           "position": "Yönetim Kurulu Başkanı"
-        },
-        {
-          "imgSrc": "https://via.placeholder.com/50",
-          "name": "Ömer Faruk Göksal",
-          "position": "Yönetim Kurulu Başkan Vekili"
         }
       ]
     },
-    "team": {
-      "title": "Ekibimiz",
-      "members": [
-        {
-          "imgSrc": "https://via.placeholder.com/50",
-          "name": "Mertcan Altun",
-          "position": "Yazılım Geliştirme Müdürü"
-        },
-        {
-          "imgSrc": "https://via.placeholder.com/50",
-          "name": "Ceyda Gül Çınardal",
-          "position": "Yazılım Geliştirme Müdürü Yardımcısı"
-        }
-      ]
+    "chairperson": {
+      "title": "Yönetim Kurulu Başkanı'ndan Mesaj",
+      "message": "HGM Software’in Değerli İş Ortakları, Çok Kıymetli Dostlarımız ve Çalışanlarımız; HGM Software Topluluğu olarak, 'Dijital Çözümler, Güçlü Yarınlar' prensibimizin, tercih edilen marka olma başarısını getireceğine inanıyoruz. Yurt içinde ve yurt dışındaki gerçekleştireceğimiz faaliyetlerimizle en beğenilen ve saygı duyulan kurumlardan biri olmamızın mutluluğunu yaşayacağız. Bugünden itibaren çıtayı daha da yukarı çıkartarak, yenilikleri ve değişimleri kucaklayarak yolumuza devam edeceğiz. Temel değerlerimize sadık kalarak, stratejilerimizi, iş kollarımızı ve organizasyonumuzu sürekli olarak yenileyecek ve geliştireceğiz. En sağlam, güvenilir ve kârlı olmayı sürdüreceğiz."
     }
   },
   "career": {
@@ -154,15 +138,16 @@
     }
   },
   "footer": {
-    "companyInfo": "© 2024 HGM Software. Tüm hakları saklıdır.",
+    "companyInfo": "© 2024 HGM Yazılım Bilişim Sistemleri Inşaat Ithalat Ihracat Ticaret ve Sanayi Ltd Şti. All rights reserved.",
     "socialMedia": {
       "facebook": "https://facebook.com/hgmsoftware",
       "twitter": "https://twitter.com/hgmsoftware",
-      "linkedin": "https://www.linkedin.com/in/hgmsoftware/"
+      "linkedin": "https://www.linkedin.com/in/hgmsoftware/",
+      "instagram": "https://instagram.com/hgmsoftware"
     },
     "contact": {
       "email": "softwarehgm@gmail.com",
-      "phone": "+90 539 677 70 73"
+      "phone": "+90 546 416 35 61 . +90 539 677 70 73"
     },
     "address": {
       "line1": "Gazi Paşa Mah. Boztepe Cad. No:42/A ",

@@ -73,7 +73,7 @@ export default function ContactUs({ data }: ContactUsProps) {
             <input
               type="text"
               placeholder="Full Name"
-              className="w-full rounded-md border border-gray-300 bg-white py-3 px-6 text-base font-medium text-gray-700 outline-none focus:border-purple-500 focus:shadow-md"
+              className="w-full rounded-md border border-gray-300 bg-white py-3 px-6 text-base font-medium text-gray-700 outline-none focus:border-black focus:shadow-md"
               {...register("name", { required: true })}
             />
           </div>
@@ -84,7 +84,7 @@ export default function ContactUs({ data }: ContactUsProps) {
             <input
               type="email"
               placeholder="example@domain.com"
-              className="w-full rounded-md border border-gray-300 bg-white py-3 px-6 text-base font-medium text-gray-700 outline-none focus:border-purple-500 focus:shadow-md"
+              className="w-full rounded-md border border-gray-300 bg-white py-3 px-6 text-base font-medium text-gray-700 outline-none focus:border-black focus:shadow-md"
               {...register("email", { required: true })}
             />
           </div>
@@ -98,7 +98,7 @@ export default function ContactUs({ data }: ContactUsProps) {
             <input
               type="subject"
               placeholder="Subject"
-              className="w-full rounded-md border border-gray-300 bg-white py-3 px-6 text-base font-medium text-gray-700 outline-none focus:border-purple-500 focus:shadow-md"
+              className="w-full rounded-md border border-gray-300 bg-white py-3 px-6 text-base font-medium text-gray-700 outline-none focus:border-black focus:shadow-md"
               {...register("subject", { required: true })}
               defaultValue={subjectFromParams || ""}
             />
@@ -113,18 +113,18 @@ export default function ContactUs({ data }: ContactUsProps) {
             <textarea
               rows={4}
               placeholder="Type your message"
-              className="w-full resize-none rounded-md border border-gray-300 bg-white py-3 px-6 text-base font-medium text-gray-700 outline-none focus:border-purple-500 focus:shadow-md"
+              className="w-full resize-none rounded-md border border-gray-300 bg-white py-3 px-6 text-base font-medium text-gray-700 outline-none focus:border-black focus:shadow-md"
               {...register("message", { required: true })}
             ></textarea>
             <input
               type="file"
               className="mt-4"
               {...register("file", { required: false })}
-              onChange={handleFileChange} // Dosya değişiminde içeriği oku
+              onChange={handleFileChange}
             />
           </div>
           <div>
-            <button className="hover:shadow-form rounded-md bg-customBlue py-3 px-8 text-base font-semibold text-white outline-none">
+            <button className="hover:shadow-form rounded-md bg-black py-3 px-8 text-base font-semibold text-white outline-none">
               {data.form.submit}
             </button>
           </div>

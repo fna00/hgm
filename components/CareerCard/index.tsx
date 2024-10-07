@@ -47,7 +47,7 @@ export default function CareerPage({ data, lang }: CareerCardProps) {
               <p className="text-lg">{position.requirements}</p>
             </div>
             <button
-              className="p-4 px-8 bg-customBlue text-white mt-4 self-start"
+              className="p-4 px-8 bg-black text-white mt-4 self-start"
               onClick={() => handleApplyClick(position)}
             >
               Başvur

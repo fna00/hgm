@@ -44,28 +44,12 @@
           "imgSrc": "https://via.placeholder.com/50",
           "name": "Hasan Hasanoğlu",
           "position": "Chairman of the Board"
-        },
-        {
-          "imgSrc": "https://via.placeholder.com/50",
-          "name": "Ömer Faruk Göksal",
-          "position": "Deputy Chairman of the Board"
         }
       ]
     },
-    "team": {
-      "title": "Our Team",
-      "members": [
-        {
-          "imgSrc": "https://via.placeholder.com/50",
-          "name": "Mertcan Altun",
-          "position": "Software Manager"
-        },
-        {
-          "imgSrc": "https://via.placeholder.com/50",
-          "name": "Ceyda Gül Çınardal",
-          "position": "Deputy Software Manager"
-        }
-      ]
+    "chairperson": {
+      "title": "Message from the Chairperson",
+      "message": "HGM Software's Valuable Business Partners, Dear Friends and Employees; As the HGM Software Community, we firmly believe that our principle of 'Digital Solutions, Stronger Tomorrows' will bring us the success of becoming a preferred brand. We will experience the happiness of being one of the most admired and respected institutions through our activities both domestically and internationally. From today onward, we will continue our journey by raising the bar even higher, embracing innovations and changes. While staying true to our core values, we will continuously renew and develop our strategies, business lines, and organization to remain the most solid, reliable, and profitable."
     }
   },
   "project": {
@@ -148,15 +132,16 @@
     }
   },
   "footer": {
-    "companyInfo": "© 2024 HGM Software. All rights reserved.",
+    "companyInfo": "© 2024 HGM Yazılım Bilişim Sistemleri Inşaat Ithalat Ihracat Ticaret ve Sanayi Ltd Şti. All rights reserved.",
     "socialMedia": {
       "facebook": "https://facebook.com/hgmsoftware",
       "twitter": "https://twitter.com/hgmsoftware",
-      "linkedin": "https://www.linkedin.com/in/hgmsoftware/"
+      "linkedin": "https://www.linkedin.com/in/hgmsoftware/",
+      "instagram": "https://instagram.com/hgmsoftware"
     },
     "contact": {
       "email": "softwarehgm@gmail.com",
-      "phone": "+90 539 677 70 73"
+      "phone": "+90 546 416 35 61"
     },
     "address": {
       "line1": "Gazi Paşa Mah. Boztepe Cad. No:42/A",

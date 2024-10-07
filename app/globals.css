@@ -82,4 +82,12 @@ body {
     overflow: hidden;
     z-index: -1;
   }
+
+  /* .first-three-letters {
+    font-family: "Great Vibes", cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    float: left;
+    margin-right: 0.2rem;
+  } */
 }

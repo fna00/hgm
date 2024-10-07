@@ -17,12 +17,23 @@ export default function RootLayout({
       <html lang="en">
         <head>
           <link rel="icon" href="/favicon.ico" sizes="any" />
-          <link rel="icon" href="/icon.png" type="image/png" sizes="32x32" />
           <link
-            rel="apple-icon"
-            href="/apple-icon.png"
+            rel="icon"
+            href="/icon-64x64.jpg"
             type="image/png"
-            sizes="32x32"
+            sizes="any"
+          />
+          <link
+            rel="shortcut icon"
+            href="/icon-64x64.jpg"
+            type="image/png"
+            sizes="any"
+          />
+          <link
+            rel="apple-touch-icon"
+            href="/icon-64x64.jpg"
+            type="image/png"
+            sizes="180x180"
           />
           <meta name="theme-color" content="#ffffff" />
           <meta name="apple-mobile-web-app-capable" content="yes" />

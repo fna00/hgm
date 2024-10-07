@@ -2,6 +2,12 @@ import React from "react";
 import Image from "next/image";
 import HeroImg from "../../assets/Hero.png";
 import BrandIcon from "@/icons/BrandIcon";
+import { Lato } from "next/font/google";
+
+const lato = Lato({
+  subsets: ["latin"],
+  weight: "300",
+});
 
 interface HeroProps {
   data: {
@@ -21,7 +27,7 @@ export default function Hero({ data }: HeroProps) {
       />
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
         <BrandIcon className="w-full h-full" fill="black" />
-        <p className="mt-4 text-3xl italic font-dancingScript text-black">
+        <p className={`mt-4 text-5xl text-gray-700 ${lato.className}`}>
           {data.title}
         </p>
       </div>

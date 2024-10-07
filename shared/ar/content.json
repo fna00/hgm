@@ -43,28 +43,12 @@
           "imgSrc": "https://via.placeholder.com/50",
           "name": "حسن حسن أوغلو",
           "position": "رئيس مجلس الإدارة"
-        },
-        {
-          "imgSrc": "https://via.placeholder.com/50",
-          "name": "عمر فاروق جوكسال",
-          "position": "نائب رئيس مجلس الإدارة"
         }
       ]
     },
-    "team": {
-      "title": "فريقنا",
-      "members": [
-        {
-          "imgSrc": "https://via.placeholder.com/50",
-          "name": "ميرتجان ألتون",
-          "position": "مدير البرمجيات"
-        },
-        {
-          "imgSrc": "https://via.placeholder.com/50",
-          "name": "جيدا جول جيناردال",
-          "position": "نائب مدير البرمجيات"
-        }
-      ]
+    "chairperson": {
+      "title": "رسالة من رئيس مجلس الإدارة",
+      "message": "HGM Software شركاؤنا الأعزاء، أصدقاؤنا وزملاؤنا الأعزاء؛ بصفتنا مجتمع HGM Software، نؤمن بشدة أن مبدأنا 'الحلول الرقمية، غد أقوى' سيجلب لنا النجاح كعلامة تجارية مفضلة. سنشهد سعادة أن نكون من بين أكثر المؤسسات احترامًا وإعجابًا من خلال أنشطتنا محليًا ودوليًا. بدءًا من اليوم، سنواصل رحلتنا من خلال رفع المعايير بشكل أكبر واحتضان الابتكارات والتغييرات. مع الحفاظ على التزامنا بقيمنا الأساسية، سنعمل باستمرار على تجديد وتطوير استراتيجياتنا وخطوط أعمالنا وتنظيمنا ليظل الأكثر صلابة وموثوقية وربحية."
     }
   },
   "project": {
@@ -147,15 +131,16 @@
     }
   },
   "footer": {
-    "companyInfo": "© 2024 شركتك. جميع الحقوق محفوظة.",
+    "companyInfo": "© 2024 HGM Yazılım Bilişim Sistemleri Inşaat Ithalat Ihracat Ticaret ve Sanayi Ltd Şti. All rights reserved.",
     "socialMedia": {
       "facebook": "https://facebook.com/hgmsoftware",
       "twitter": "https://twitter.com/hgmsoftware",
-      "linkedin": "https://www.linkedin.com/in/hgmsoftware/"
+      "linkedin": "https://www.linkedin.com/in/hgmsoftware/",
+      "instagram": "https://instagram.com/hgmsoftware"
     },
     "contact": {
       "email": "softwarehgm@gmail.com",
-      "phone": "+90 539 677 70 73"
+      "phone": "+90 546 416 35 61"
     },
     "address": {
       "line1": "Gazi Paşa Mah. Boztepe Cad. No:42/A ",

@@ -1,6 +1,7 @@
 "use client";
 
 import clsx from "clsx";
+import { useRouter } from "next/navigation";
 import React, { useEffect } from "react";
 
 interface Card {
@@ -10,6 +11,8 @@ interface Card {
       content: string;
     }[];
   };
+
+  lang: string;
 }
 
 const handleScroll = () => {
@@ -30,7 +33,14 @@ const handleScroll = () => {
     }
   });
 };
-export default function InfoCard({ data }: Card) {
+
+export default function InfoCard({ data, lang }: Card) {
+  const router = useRouter();
+
+  const handleApplyClick = (position: string) => {
+    router.push(`/${lang}/contact?subject=${encodeURIComponent(position)}`);
+  };
+
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => {
@@ -51,9 +61,15 @@ export default function InfoCard({ data }: Card) {
           )}
         >
           <div className="container mx-auto content-center">
-            <h2 className="flex justify-center text-2xl font-bold text-customBlue">
+            <h2 className="flex justify-center text-2xl font-bold text-black">
               {card.title}
             </h2>
+            <button
+              onClick={() => handleApplyClick(card.title)}
+              className="flex justify-center p-4 mt-4 container mx-auto px-4 w-1/3 rounded-full bg-slate-400 text-white"
+            >
+              Teklif Ver
+            </button>
           </div>
           <div className="container mx-auto content-center">
             <div className="flex justify-center ">

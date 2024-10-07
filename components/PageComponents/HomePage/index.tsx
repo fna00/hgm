@@ -22,7 +22,7 @@ export default function HomePage() {
     <div className="flex flex-col min-h-screen overflow-x-hidden">
       <Header />
       <Hero data={data.home} />
-      <InfoCard data={data.home} />
+      <InfoCard data={data.home} lang={lang} />
       <Footer data={data.footer} />
     </div>
   );
