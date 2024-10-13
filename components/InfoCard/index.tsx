@@ -66,9 +66,9 @@ export default function InfoCard({ data, lang }: Card) {
             </h2>
             <button
               onClick={() => handleApplyClick(card.title)}
-              className="flex justify-center p-4 mt-4 container mx-auto px-4 w-1/3 rounded-full bg-slate-400 text-white"
+              className="flex justify-center p-4 mt-4 container mx-auto px-4 w-1/3 rounded-full bg-black text-white"
             >
-              Teklif Ver
+              Teklif Al
             </button>
           </div>
           <div className="container mx-auto content-center">

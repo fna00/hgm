@@ -41,8 +41,13 @@
       "members": [
         {
           "imgSrc": "https://via.placeholder.com/50",
-          "name": "حسن حسن أوغلو",
+          "name": "Hasan Hasanoğlu",
           "position": "رئيس مجلس الإدارة"
+        },
+        {
+          "imgSrc": "https://via.placeholder.com/50",
+          "name": "Ömer Faruk Göksal",
+          "position": "نائب رئيس مجلس الإدارة"
         }
       ]
     },
