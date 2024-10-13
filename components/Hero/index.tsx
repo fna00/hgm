@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import HeroImg from "../../assets/Hero.png";
+import HeroImg from "../../assets/24033583.jpg";
 import BrandIcon from "@/icons/BrandIcon";
 import { Lato } from "next/font/google";
 
@@ -25,9 +25,9 @@ export default function Hero({ data }: HeroProps) {
         objectFit="cover"
         className="w-full h-full"
       />
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
-        <BrandIcon className="w-full h-full" fill="black" />
-        <p className={`mt-4 text-5xl text-gray-700 ${lato.className}`}>
+      <div className="absolute inset-0 flex flex-col items-start justify-center text-center text-white pl-4">
+        <BrandIcon className="w-full h-full " fill="white" />
+        <p className={`mt-4 text-5xl text-white ${lato.className}`}>
           {data.title}
         </p>
       </div>
