@@ -17,10 +17,40 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 @layer utilities {
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .slide-in-right {
+    animation: slideInFromRight 3s forwards;
+  }
+
+  .slide-in-left {
+    animation: slideInFromLeft 3s forwards;
+  }
+
   @keyframes float {
     0% {
       transform: translateY(0);
@@ -53,37 +83,11 @@ body {
     z-index: -1;
   }
 
-  .background-animation .circle-1,
-  .background-animation .circle-2,
-  .background-animation .circle-3 {
-    position: absolute;
-    border-radius: 50%;
-    background-color: white;
-    opacity: 0.3;
-  }
-
-  .background-animation .circle-1 {
-    width: 8rem;
-    height: 8rem;
-    bottom: 0;
-    animation: float 5s infinite ease-in-out alternate;
-  }
-
-  .background-animation .circle-2 {
-    width: 6rem;
-    height: 6rem;
-    bottom: 2.5rem;
-    right: 2.5rem;
-    opacity: 0.2;
-    animation: float 5s infinite ease-in-out alternate 2s;
-  }
-
-  .background-animation .circle-3 {
-    width: 10rem;
-    height: 10rem;
-    bottom: 5rem;
-    left: 2.5rem;
-    opacity: 0.4;
-    animation: float 5s infinite ease-in-out alternate 3s;
-  }
+  /* .first-three-letters {
+    font-family: "Great Vibes", cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    float: left;
+    margin-right: 0.2rem;
+  } */
 }

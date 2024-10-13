@@ -29,16 +29,18 @@ const config: Config = {
         },
       },
       animation: {
-        slideIn: "slideIn 0.5s ease-out forwards",
+        slideIn: "slideIn 0.5s forwards",
+        slideOut: "slideOut 0.5s forwards",
       },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        customBlue: "#201E43",
-        customWhite: "#EEEEEE",
       },
-      backgroundImage: {
-        hero: "url('../assets/hero.png')",
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+        windSong: ["WindSong"],
+        poppins: ["Poppins", "sans-serif"],
+        dancing: ["Dancing Script", "cursive"],
       },
     },
   },

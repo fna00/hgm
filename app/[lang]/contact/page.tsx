@@ -1,20 +1,25 @@
-"use client";
-
-import React from "react";
-import { useParams } from "next/navigation";
-import { useFetchPageContent } from "@/hooks/useFectchPageContent";
+import React, { Suspense } from "react";
 import ContactPage from "@/components/PageComponents/ContactPage";
 
-function About() {
-  const params = useParams();
-  const lang = params.lang as string;
-
-  const { data, isLoading, isError } = useFetchPageContent(lang);
-
-  if (isLoading) return <p>Loading...</p>;
-  if (isError) return <p>Could not load content</p>;
-
-  return <ContactPage data={data?.contact} />;
+// Statik parametreleri önceden belirleyin
+export async function generateStaticParams() {
+  return [
+    { lang: "en" },
+    { lang: "tr" },
+    { lang: "de" },
+    { lang: "ar" },
+    // Diğer diller varsa buraya ekleyin
+  ];
 }
 
-export default About;
+function Contact() {
+  return <ContactPage />;
+}
+
+export default function WrappedContact() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <Contact />
+    </Suspense>
+  );
+}
