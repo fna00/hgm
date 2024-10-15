@@ -21,7 +21,7 @@ export default function SideNav({ language, onClose }: SideNavProps) {
 
   return (
     <div
-      className={`fixed top-0 left-0 h-full w-full bg-blue-950 shadow-lg z-50 ${
+      className={`fixed top-0 left-0 h-full w-full bg-black shadow-lg z-50 ${
         isClosing ? "animate-slideOut" : "animate-slideIn"
       }`}
     >
@@ -35,10 +35,10 @@ export default function SideNav({ language, onClose }: SideNavProps) {
           <CloseIcon />
         </button>
       </div>
-      <div className="container mx-auto mt-5 px-14 text-2xl text-center">
+      <div className="container mx-auto mt-5 px-14 text-2xl  text-center">
         <Menu
           lang={language}
-          className="flex flex-col space-y-2 leading-10 max-md:p-5 border-b-2 last:border-b-0"
+          className="flex flex-col space-y-2 text-white leading-10 max-md:p-5 border-b-2 last:border-b-0 pt-6"
         />
       </div>
     </div>
