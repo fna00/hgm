@@ -1,6 +1,6 @@
 "use client";
 
-import BrandIcon from "@/icons/BrandIcon";
+// import BrandIcon from "@/icons/BrandIcon";
 import React, { useEffect, useState } from "react";
 import LanguagePicker from "./LanguagePicker";
 import Menu from "./Menu";
@@ -17,9 +17,9 @@ export default function Header() {
   const [clicked, setClicked] = useState<boolean>(false);
 
   const language =
-    lang === "tr" || lang === "en" || lang == "ar" || lang == "de"
-      ? lang
-      : "en";
+  lang === "tr" || lang === "en" || lang === "de"
+    ? lang
+    : "en";
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -41,11 +41,13 @@ export default function Header() {
   }, [clicked]);
 
   return (
-    <div className="fixed top-0 left-0 w-full z-50 bg-black">
-      <div className="relative px-5 bg-transparent text-white font-medium text-lg font-serif">
+    <div className="fixed top-0 left-0 w-full -z-50 bg-white">
+      <div className="relative px-5 bg-transparent text-black font-medium text-lg font-serif">
         <div className="hidden lg:flex justify-between items-center z-50">
-          <a className="items-center gap-2" href="/" id="brandIcon">
-            <BrandIcon className={"h-20 w-40"} fill="white" />
+          <a className="items-center gap-2 p-2 w-24 h-20 overflow-hidden" href="/" id="brandIcon">
+            {/* <BrandIcon className={"h-5 w-10"} fill="white" /> */}
+            <img src="/logo2.png" alt="logo"
+            className="w-32 h-62 pb-2" />
           </a>
 
           <LanguagePicker currentLang={lang} />
@@ -76,7 +78,9 @@ export default function Header() {
                 className="absolute left-1/2 transform -translate-x-1/2 flex items-center gap-2"
                 href="/"
               >
-                <BrandIcon className={"h-20 w-40"} fill="white" />
+                {/* <BrandIcon className={"h-20 w-40"} fill="white" /> */}
+                <img src="/logo2.png" alt="logo"
+            className="w-32 h-62 pb-4" />
               </a>
               <LanguagePicker currentLang={lang} />
             </div>

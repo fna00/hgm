@@ -1,5 +1,5 @@
 import React from "react";
-import HomePage from "@/components/PageComponents/HomePage";
+import HomePage from "@/components/PageComponents/CorporatePage/HomePage";
 
 // Statik parametreleri önceden belirleyin
 export async function generateStaticParams() {
@@ -7,8 +7,6 @@ export async function generateStaticParams() {
     { lang: "en" },
     { lang: "tr" },
     { lang: "de" },
-    { lang: "ar" },
-    // Diğer diller varsa buraya ekleyin
   ];
 }
 

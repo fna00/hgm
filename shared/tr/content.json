@@ -143,11 +143,9 @@
     }
   },
   "footer": {
-    "companyInfo": "© 2024 HGM Yazılım Bilişim Sistemleri Inşaat Ithalat Ihracat Ticaret ve Sanayi Ltd Şti. All rights reserved.",
+    "companyInfo": "© 2024 Pamukkale Kağıt Ürünleri San. Tic. Ldt. Şti. All rights reserved.",
     "socialMedia": {
-      "facebook": "https://facebook.com/hgmsoftware",
-      "twitter": "https://twitter.com/hgmsoftware",
-      "linkedin": "https://www.linkedin.com/in/hgmsoftware/",
+      
       "instagram": "https://instagram.com/hgmsoftware"
     },
     "contact": {
@@ -158,5 +156,10 @@
       "line1": "Gazi Paşa Mah. Boztepe Cad. No:42/A ",
       "line2": "Ortahisar, TRABZON"
     }
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "content": "Sanayi tipi bulaşık makines  ve tamiri gibimsi şeyler galiba"
+    
   }
 }

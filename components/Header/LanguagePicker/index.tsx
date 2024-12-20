@@ -1,49 +1,5 @@
-// "use client";
-
-// import AE from "@/icons/flag/AE";
-// import { useRouter, usePathname } from "next/navigation";
-// import React from "react";
-
-// const LanguagePicker = ({ currentLang }: { currentLang: string }) => {
-//   const languages = ["en", "tr", "ar", "de"];
-//   const router = useRouter();
-//   const pathname = usePathname();
-
-//   const handleLanguageChange = (
-//     event: React.ChangeEvent<HTMLSelectElement>
-//   ) => {
-//     const selectedLanguage = event.target.value;
-//     const newPathname = pathname.replace(
-//       `/${currentLang}`,
-//       `/${selectedLanguage}`
-//     );
-//     router.push(newPathname);
-//   };
-
-//   return (
-//     <div className="flex justify-end items-center text-black">
-//       <select
-//         onChange={handleLanguageChange}
-//         value={currentLang}
-//         className="p-2 bg-transparent text-white"
-//       >
-//         {languages.map((lang) => (
-//           <option key={lang} value={lang} className="text-black">
-//             <div>
-//               <div>{lang.toUpperCase()}</div>
-//             </div>
-//           </option>
-//         ))}
-//       </select>
-//     </div>
-//   );
-// };
-
-// export default LanguagePicker;
-
 "use client";
 
-import AR from "@/icons/flag/AR";
 import DE from "@/icons/flag/DE";
 import EN from "@/icons/flag/EN";
 import TR from "@/icons/flag/TR";
@@ -54,7 +10,6 @@ const LanguagePicker = ({ currentLang }: { currentLang: string }) => {
   const languages = [
     { code: "en", name: "English", icon: <EN /> },
     { code: "tr", name: "Turkish", icon: <TR /> },
-    { code: "ar", name: "Arabic", icon: <AR /> },
     { code: "de", name: "German", icon: <DE /> },
   ];
 

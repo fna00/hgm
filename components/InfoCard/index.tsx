@@ -50,7 +50,7 @@ export default function InfoCard({ data, lang }: Card) {
 
   return (
     <div className="text-black lg:mx-40 container mx-auto px-4">
-      {data.cards.map((card, index) => (
+       {data.cards.map((card, index) => (
         <div
           key={index}
           className={clsx(
@@ -81,7 +81,7 @@ export default function InfoCard({ data, lang }: Card) {
             </div>
           </div>
         </div>
-      ))}
+      ))} 
     </div>
   );
 }

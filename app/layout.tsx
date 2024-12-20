@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { ReactQueryProvider } from "./ReactQueryProvider";
+import Footer from "@/components/Footer/Footer";
+import Navbar from "@/components/Navbar/Navbar";
+import StoreProvider from "./store/StoreProvider";
 
 export const metadata: Metadata = {
-  title: "HGM Software",
-  description: "HGM Software",
+  title: "Pamukkale Kağıt Üürünleri",
+  description: "Pamukkale Kağıt Üürünleri",
 };
 
 export default function RootLayout({
@@ -13,37 +16,43 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ReactQueryProvider>
-      <html lang="en">
+    <StoreProvider>
+     <ReactQueryProvider>
+      <html>
         <head>
           <link rel="icon" href="/favicon.ico" sizes="any" />
-          <link
+          {/* <link
             rel="icon"
-            href="/icon-64x64.jpg"
+            href="/icon4.png"
             type="image/png"
             sizes="any"
-          />
-          <link
+          /> */}
+          {/* <link
             rel="shortcut icon"
-            href="/icon-64x64.jpg"
+            href="/icon6.jpg"
             type="image/png"
             sizes="any"
-          />
-          <link
+          /> */}
+          {/* <link
             rel="apple-touch-icon"
-            href="/icon-64x64.jpg"
+            href="/icon6.jpg"
             type="image/png"
             sizes="180x180"
-          />
+          /> */}
           <meta name="theme-color" content="#ffffff" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta
             name="apple-mobile-web-app-status-bar-style"
             content="black-translucent"
           />
-        </head>
-        <body className={`min-h-screen antialiased`}>{children}</body>
-      </html>
-    </ReactQueryProvider>
+          </head>
+          <body className={``}>
+            <Navbar /> 
+            {children}
+            <Footer />
+          </body>
+        </html>
+      </ReactQueryProvider>
+    </StoreProvider>
   );
 }

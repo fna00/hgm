@@ -61,7 +61,7 @@ export default function ContactUs({ data }: ContactUsProps) {
   };
 
   return (
-    <div className="relative container mx-auto px-4 mt-20 text-black">
+    <div className="relative container mx-auto px-4 mt-20 text-pink">
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">{data?.title}</h1>
         <p className="text-lg">{data?.content}</p>

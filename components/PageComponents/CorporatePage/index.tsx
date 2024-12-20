@@ -1,10 +1,8 @@
 "use client";
 
 import React from "react";
-import Header from "../../Header";
 import en from "../../../shared/en/content.json";
 import tr from "../../../shared/tr/content.json";
-import ar from "../../../shared/ar/content.json";
 import de from "../../../shared/de/content.json";
 import { useParams } from "next/navigation";
 import Image from "next/image";
@@ -22,11 +20,11 @@ export default function CorporatePage() {
   const lang = params.lang as string;
 
   const data =
-    lang === "en" ? en : lang === "tr" ? tr : lang === "ar" ? ar : de;
+  lang === "en" ? en : lang === "tr" ? tr : de;
+
   return (
     <div>
       <div className="flex text-black flex-col min-h-screen">
-        <Header />
         <div className="flex-grow mt-20 content-center bg-white border-b-[100px]">
           <div className="container mx-auto py-8">
             <h1 className="text-3xl font-bold mb-4">

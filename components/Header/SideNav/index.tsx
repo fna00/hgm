@@ -1,4 +1,4 @@
-import BrandIcon from "@/icons/BrandIcon";
+// import BrandIcon from "@/icons/BrandIcon";
 import Menu from "../Menu";
 import CloseIcon from "@/icons/CloseIcon";
 import { useState } from "react";
@@ -21,16 +21,16 @@ export default function SideNav({ language, onClose }: SideNavProps) {
 
   return (
     <div
-      className={`fixed top-0 left-0 h-full w-full bg-black shadow-lg z-50 ${
+      className={`fixed top-0 left-0 h-full min-w-fit bg-white shadow-lg z-50 ${
         isClosing ? "animate-slideOut" : "animate-slideIn"
       }`}
     >
       <div className="container mx-auto px-5 py-4 flex justify-between">
-        <BrandIcon className={"h-20 w-36"} fill="white" />
+        {/* <img src="/logo2.png" alt="logo" className="w-32 h-62 pb-4" /> */}
         <button
           name="close"
           onClick={handleClose}
-          className="top-4 right-4 text-white text-4xl"
+          className="top-2 right-4 text-black text-4xl"
         >
           <CloseIcon />
         </button>
@@ -38,7 +38,7 @@ export default function SideNav({ language, onClose }: SideNavProps) {
       <div className="container mx-auto mt-5 px-14 text-2xl  text-center">
         <Menu
           lang={language}
-          className="flex flex-col space-y-2 text-white leading-10 max-md:p-5 border-b-2 last:border-b-0 pt-6"
+          className="flex flex-col space-y-2 text-black leading-10 max-md:p-5 pt-6"
         />
       </div>
     </div>

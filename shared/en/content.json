@@ -1,8 +1,8 @@
 {
-  "menu": ["Home", "About", "Corporate", "Career", "Project", "Contact"],
+  "menu": ["Home", "About", "Products", "Services", "Contact"],
 
   "home": {
-    "title": "Digital Solutions, Strong Futures",
+    "title": "Pamukkale Kağıt",
     "content": "This is the English content for the home page.",
     "cards": [
       {
@@ -24,110 +24,43 @@
   },
   "about": {
     "title": "About Us",
-    "content": "HGM Software aims to effectively manage developing technology and commerce both in our country and around the world. Our \"Business Management System\" software is designed to optimize business processes, increase efficiency, and provide a user-friendly experience. As the HGM Software family, we are committed to providing quality service to our customers. We are excited and pleased to step into the future with you and to offer you the best service. Best regards, HGM Software",
+    "content": "Firmamız 1995 yılında Fethi ve İbrahim Aydınlıoğlu tarafından 100 m2 alanda peçete üretimleri yaparak ticaret hayatına başladı.Daha sonraları yatırımlarını ve hedeflerini büyüten firmamız , tuvalet kağıdı imalatı ile ürün sayısını artırarak , aynı zamanda işyerini de büyüterek toplam 2000 m2 kapalı alana ulaşmıştır.Ürün çeşitlerimiz arasında kendi üretimimiz olan Emfy ile Euro markalarının yanısıra , dispenser havlu imalatı, dispenser peçete imalatı, kese kağıdı, köpük satışı, baskılı kağıt, kimyasal, temizlik ekipmanları ve sektörümüzde önemli bir yeri olan ambalaj çeşitlerimizle sizlerin hizmetinizdeyiz.Hedefimiz , insan sağlığını ön planda tutarak halkımıza kaliteli ve hijyenik ürünler sunmaktır.",
     "mission": {
       "title": "Mission",
-      "content": "As HGM Software, our mission is to optimize business processes and increase efficiency by providing our customers with innovative and effective software solutions. By using technology effectively, we aim to help our customers achieve their business goals."
+      "content": "mision yazısı"
     },
     "vision": {
       "title": "Vision",
-      "content": "Our vision is to make HGM Software a global software leader and to provide our customers with the highest quality service. In the future, we aim to create a world full of technological innovations and contribute to the success of our customers."
+      "content": "vizyon yaısı"
     }
   },
-  "corporate": {
-    "title": "Corporate",
-    "content": "Corporate content will be available here in Turkish.",
-    "directors": {
-      "title": "Board of Directors",
-      "members": [
-        {
-          "imgSrc": "https://via.placeholder.com/50",
-          "name": "Hasan Hasanoğlu",
-          "position": "Chairman of the Board"
-        },
-        {
-          "imgSrc": "https://via.placeholder.com/50",
-          "name": "Ömer Faruk Göksal",
-          "position": "Deputy Chairman of the Board of Directors"
-        }
-      ]
-    },
-    "chairperson": {
-      "title": "Message from the Chairperson",
-      "message": "HGM Software's Valuable Business Partners, Dear Friends and Employees; As the HGM Software Community, we firmly believe that our principle of 'Digital Solutions, Stronger Tomorrows' will bring us the success of becoming a preferred brand. We will experience the happiness of being one of the most admired and respected institutions through our activities both domestically and internationally. From today onward, we will continue our journey by raising the bar even higher, embracing innovations and changes. While staying true to our core values, we will continuously renew and develop our strategies, business lines, and organization to remain the most solid, reliable, and profitable."
-    }
-  },
-  "project": {
-    "title": "Our Projects",
-    "content": "This is the English content for the projects page.",
-    "technologies": [
-      {
-        "name": "Next.js",
-        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-        "alt": "Next.js"
-      },
-      {
-        "name": "React",
-        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-        "alt": "React"
-      },
-      {
-        "name": "Docker",
-        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-        "alt": "Docker"
-      },
-      {
-        "name": "VS Code",
-        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
-        "alt": "VS Code"
-      },
-      {
-        "name": "Node.js",
-        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-        "alt": "Node.js"
-      },
-      {
-        "name": "TypeScript",
-        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-        "alt": "TypeScript"
-      },
-      {
-        "name": "GraphQL",
-        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
-        "alt": "GraphQL"
-      },
-      {
-        "name": "MongoDB",
-        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-        "alt": "MongoDB"
-      }
-    ]
-  },
+
   "career": {
-    "title": "Join Our Team",
-    "content": "At our company, we believe in fostering a collaborative and innovative work environment. We are always on the lookout for talented individuals to join our team. If you are passionate about technology and eager to make a difference, we would love to hear from you.",
-    "requirements": "Requirements",
+    "title": "Ekibimize Katılın",
+    "content": "Şirketimizde, işbirlikçi ve yenilikçi bir çalışma ortamı yaratmaya inanıyoruz. Ekibimize katılacak yetenekli bireyler arıyoruz. Teknolojiye tutkuluysanız ve fark yaratmak istiyorsanız, sizden haber almak isteriz.",
+    "requirements": "Gereksisdfghjnimler",
     "positions": [
       {
-        "title": "Backend Developer",
-        "description": "We are looking for a skilled Backend Developer to join our team. You will be responsible for managing the interchange of data between the server and the users.",
-        "requirements": "Experience with Node.js, Express, and MongoDB. Knowledge of RESTful APIs."
+        "title": "asdfghjki",
+        "description": "dsfghj.",
+        "requirements": "zdxfghjklşp."
       },
       {
-        "title": "Junior DevOps Engineer",
-        "description": "Join our team as a Junior DevOps Engineer. You will assist in managing our infrastructure and ensuring smooth deployment processes.",
-        "requirements": "Familiarity with Docker, Kubernetes, and CI/CD pipelines."
+        "title": "Jdffghi",
+        "description": "sdfghjri.",
+        "requirements": "sdfghjkljhgbfvd"
       },
       {
-        "title": "Frontend Developer",
-        "description": "We need a talented Frontend Developer to create amazing user experiences. You should be proficient in React and have a keen eye for design.",
-        "requirements": "Experience with React, HTML, CSS, and JavaScript. Knowledge of responsive design."
+        "title": "Fzsdfghj",
+        "description": "asdfghjkla ",
+        "requirements": "sdfghjklşi,işlkjh"
       }
     ]
   },
+
   "contact": {
     "title": "Contact Us",
-    "content": "We believe in creating a collaborative and innovative work environment. We are always looking for talented individuals who want to join our team. If you are passionate about technology and want to make a difference, we would love to hear from you.",
+    "content": "bize ulaşın",
     "form": {
       "name": "Full Name",
       "email": "Email",
@@ -137,20 +70,24 @@
     }
   },
   "footer": {
-    "companyInfo": "© 2024 HGM Yazılım Bilişim Sistemleri Inşaat Ithalat Ihracat Ticaret ve Sanayi Ltd Şti. All rights reserved.",
+    "companyInfo": "© 2024 Pamukkale Kağıt Ürünleri San. Tic. Ldt. Şti All rights reserved.",
     "socialMedia": {
-      "facebook": "https://facebook.com/hgmsoftware",
-      "twitter": "https://twitter.com/hgmsoftware",
-      "linkedin": "https://www.linkedin.com/in/hgmsoftware/",
-      "instagram": "https://instagram.com/hgmsoftware"
+      "instagram": "https://www.instagram.com/pamukkalekagit/"
     },
     "contact": {
-      "email": "softwarehgm@gmail.com",
-      "phone": "+90 546 416 35 61"
+      "email": "muhasebe@pamukkalekagit.com.tr",
+      "phone": "(0258) 251 21 68"
     },
     "address": {
-      "line1": "Gazi Paşa Mah. Boztepe Cad. No:42/A",
-      "line2": "Ortahisar, TRABZON"
+      "line1": "Merkez, Sümer Mahallesi, 2249. Sk. No:10 20020 Denizli",
+      "line2": "Merkezefendi/ DENİZLİ"
     }
+  },
+
+  "services": {
+    "title": "Hizmetlerimiz",
+    "content": "Sanayi tipi bulaşık makines  ve tamiri gibimsi şeyler galiba"
+    
   }
+  
 }
