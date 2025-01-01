@@ -1,34 +1,24 @@
-'use client';
+"use client";
+import { usePathname, useRouter } from "next/navigation";
+import Home from "./[lang]/home/page";
+import { useEffect } from "react";
 
-// import { redirect } from "next/navigation";
+export default function App() {
+  const pathname = usePathname()
 
-import React from 'react'
-import type { RootState } from '@/app/store/store'
-import { useSelector, useDispatch } from 'react-redux'
-import { decrement, increment } from './store/slice'
+  const isIndex = pathname === "/";
 
-export default function Home() {
-  const count = useSelector((state: RootState) => state.counter.value)
-  const dispatch = useDispatch()
-  // redirect("/en/home");
+  const router = useRouter();
+  useEffect(() => {
+    if(isIndex) {
+
+      router.push("/en/home");
+    }
+  }, [router, isIndex]);
+
   return (
-    <div className='mt-6 text-black outline'>
-      asdasdasds
-      <div>
-        <button
-          aria-label="Increment value"
-            onClick={() => dispatch(increment())}
-        >
-          Increment
-        </button>
-        <span>{count}</span>
-        <button
-          aria-label="Decrement value"
-          onClick={() => dispatch(decrement())}
-        >
-          Decrement
-        </button>
-      </div>
+    <div className="mt-6 text-black outline">
+      <Home />
     </div>
-  )
+  );
 }

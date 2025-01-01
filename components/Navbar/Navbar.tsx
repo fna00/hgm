@@ -59,7 +59,7 @@ export default function Header() {
     <div className="    w-full z-50 bg-white">
         <div className="relative px-5 bg-transparent text-black font-medium text-lg font-serif">
             <div className="hidden lg:flex justify-between items-center z-50">
-                <a className="items-center gap-2 p-2 w-24 h-20 overflow-hidden" href="/" id="brandIcon">
+                <a className="items-center gap-2 p-2 w-24 h-20 overflow-hidden" href="/en/home" id="brandIcon">
                   <Image
                     width={250}
                     height={110}

@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-// import type { PayloadAction } from '@reduxjs/toolkit'
 
 const openingSlice = createSlice({
   name: "opening",
@@ -15,9 +14,6 @@ const openingSlice = createSlice({
       },
   },
 });
-
-// export const { openingstate } = openingSlice.actions;
-// export default openingSlice.reducer;
 
 export const { toggleOpening } = openingSlice.actions;
 export default openingSlice.reducer;

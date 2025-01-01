@@ -13,7 +13,7 @@ export default function HomePage() {
   const lang = params.lang as string;
 
   const data =
-  lang === "en" ? en : lang === "tr" ? tr : de;
+  lang === "en" ? en : lang === "de" ? de : tr;
 
 
   return (

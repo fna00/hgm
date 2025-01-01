@@ -31,16 +31,13 @@ export function Sidebar() {
   const dispatch = useDispatch();
 
   const isOpen = useSelector((state: RootState) => state.opening.isOpen); 
+  const selectedSubCategoryId = useSelector((state: RootState) => state.filter.selectedSubCategoryId);
 
   const toggleSidebar = () => {
     dispatch(toggleOpening()); 
   };
-/* 
-  console.log("isOpen",isOpen)
-  console.log("toggleSidebar",toggleSidebar) */
 
   useEffect(() => {
-    // axios.get("http://localhost:5082/api/Category/gets/category")
     axios.get("http://localhost:5082/api/Category/gets/cat?sortBy=Name")
       .then((response) => {
         setCategories(response.data.data)
@@ -95,7 +92,11 @@ export function Sidebar() {
                       key={subCategory.id}
                       href="#"
                       onClick={() => handleSubCategorySelect(subCategory.id)} 
-                      className="block rounded-md p-2 hover:bg-gray-700 whitespace-nowrap"
+                      className={`block rounded-md p-2 hover:bg-gray-700 whitespace-nowrap ${
+                        selectedSubCategoryId === subCategory.id
+                          ? "bg-gray-900  text-red-400"
+                          : ""
+                      }`}
                     >
                       {subCategory.name}
                     </a>

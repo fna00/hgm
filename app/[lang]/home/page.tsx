@@ -1,13 +1,8 @@
-import React from "react";
 import HomePage from "@/components/PageComponents/CorporatePage/HomePage";
 
 // Statik parametreleri önceden belirleyin
 export async function generateStaticParams() {
-  return [
-    { lang: "en" },
-    { lang: "tr" },
-    { lang: "de" },
-  ];
+  return [{ lang: "en" }, { lang: "tr" }, { lang: "de" }];
 }
 
 function Home() {
